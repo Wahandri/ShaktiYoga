@@ -1,0 +1,21 @@
+.boxCoaching {
+    padding-top: 50px;
+    width: 100%;
+    background-color: #a2122f15;
+    padding-bottom: 50px;
+}
+
+.imgCoaching {
+    width: 650px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #69372682;
+}
+
+.descriptionCoaching {
+    width: 700px;
+}
+
+.shadowLight {
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255, 255, 255, 0.487) 1%, rgba(0,212,255,0) 60%);
+}

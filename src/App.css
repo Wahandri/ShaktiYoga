@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+.flex {
+    display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.column {
+    flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.margin {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.paddingTop {
+    padding-top: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.center {
+    justify-content: center;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textSmall {
+    width: 400px;
 }
+
+/* Font */
+@font-face {
+    font-family: 'TitlesFont';
+    src: url('./fonts/Merienda-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TextFont';
+    src: url('./fonts/Belleza-Regular.ttf') format('truetype');
+}
+
+p {
+    font-size: 25px;
+    font-family: 'TextFont', sans-serif;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'TitlesFont', sans-serif;
+}
+/* ---- */

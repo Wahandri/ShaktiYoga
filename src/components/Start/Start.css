@@ -1,0 +1,32 @@
+.startHeader {
+    width: 100%;
+    /* background-color: #69372629; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.logoShakti {
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 1%, rgba(148,187,233,0) 80%);
+}
+
+.title {
+    font-size: 50px;
+}
+
+.titleSmall {
+    font-size: 35px;
+}
+
+.pinkColor {
+    color: #ffc2ce !important;
+    text-shadow: 1px 1px #fd6e8a;
+}
+
+.blueColor {
+    color: #80b3ff !important;
+    text-shadow: 1px 1px #315b9a;
+}
