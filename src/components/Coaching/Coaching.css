@@ -17,5 +17,46 @@
 
 .shadowLight {
     background: rgb(255,255,255);
-background: radial-gradient(circle, rgba(255, 255, 255, 0.487) 1%, rgba(0,212,255,0) 60%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.487) 1%, rgba(0,212,255,0) 60%);
+}
+
+@media (max-width: 1460px) {
+    .responsiveCoaching {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .revers {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 768px) {
+    .imgCoaching {
+        width: 400px;
+    }
+
+    .descriptionCoaching {
+        justify-content: center !important;
+        align-items: center !important;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+
+    p .descriptionCoaching {
+        width: 80%;
+    }
+}
+
+@media (max-width: 450px) {
+    .imgCoaching {
+        width: 300px;
+    }
+
+    .descriptionCoaching {
+        width: 100%;
+    }
 }

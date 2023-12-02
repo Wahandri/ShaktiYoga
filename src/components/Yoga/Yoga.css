@@ -1,0 +1,13 @@
+.boxYoga {
+    width: 100%;
+    background-color: #69372624;
+}
+
+.descriptionYoga {
+    gap: 10%;
+    margin-bottom: 80px;
+}
+
+.descriptionYoga p {
+    width: 700px;
+}

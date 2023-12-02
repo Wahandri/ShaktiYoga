@@ -12,15 +12,12 @@ export default function Meditation() {
   return (
     <div className='boxMeditation flex column center margin'>
       <h1 className='title'><span className='pinkColor'>Meditación</span> Dinámica</h1>
-      <div className='flex '>
+      <div className='flex column center responsiveMeditation'>
         <p className='margin textSmall'>
           Descubre la simplicidad y la profunda conexión con nuestras meditaciones dinámicas. En lugar de prácticas complejas, te invitamos a bailar, a cantar y a encontrar la quietud en el silencio.
         </p>
         <div className='Carousel'>
           <Carousel autoPlay infiniteLoop>
-            <div>
-              <img className='borderRadius' src={meditation} alt=''/>
-            </div>
             <div>
               <img className='borderRadius' src={meditation2} alt=''/>
             </div>
@@ -32,6 +29,8 @@ export default function Meditation() {
             </div>
           </Carousel>
         </div>
+        
+
         <p className='margin textSmall'>
           Como dijo Osho: "Mi meditación es sencilla, no requiere ninguna práctica compleja". Únete a nosotros para experimentar la armonía y la paz interior a través de estas formas únicas de meditación.
         </p>

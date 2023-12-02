@@ -20,9 +20,7 @@
     align-items: center;
 }
 
-.textSmall {
-    width: 400px;
-}
+
 
 /* Font */
 @font-face {
@@ -46,3 +44,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'TitlesFont', sans-serif;
 }
 /* ---- */
+
+@media (max-width: 768px) {
+    .margin {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    
+}
