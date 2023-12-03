@@ -6,7 +6,7 @@ import Coaching from '../Coaching/Coaching'
 import Meditation from '../Meditation/Meditation'
 import Massage from '../Massage/Massage'
 import Yoga from "../Yoga/Yoga.js"
-import Feeding from '../Feeding/Feeding.js'
+import Nutrition from '../Nutrition/Nutrition.js'
 
 export default function Start() {
 
@@ -30,7 +30,7 @@ export default function Start() {
         <Meditation />
         <Yoga />
         <Massage />
-        <Feeding />
+        <Nutrition />
     </div>
   )
 }

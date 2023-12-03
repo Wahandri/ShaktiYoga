@@ -2,6 +2,7 @@ import React from 'react';
 import "./Coaching.css";
 import imgPositive from "../../images/positive.jpg";
 import imgTeam from "../../images/emocionalcoaching.jpg";
+import BtnLink from '../BtnLink/BtnLink';
 
 export default function Coaching() {
   return (
@@ -33,6 +34,7 @@ export default function Coaching() {
                 <img className='imgCoaching margin' src={imgTeam} alt='Coaching Emocional' />
             </div>
         </div>
+        <BtnLink LinkTo="/coaching" BtnText="Más información" />
     </div>
   );
 }

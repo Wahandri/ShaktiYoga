@@ -1,9 +1,9 @@
-.boxMassage {
+.boxNutrition {
+    background-color: rgba(0, 128, 0, 0.152);
     width: 100%;
-    background-color: rgba(117, 3, 193, 0.076);
 }
 
-.descriptionMassage {
+.descriptionNutrition {
     width: 75%;
     gap: 10%;
     margin-bottom: 80px;
@@ -12,35 +12,34 @@
 
 }
 
-.imgMassage {
+.descriptionNutrition p {
     width: 700px;
 }
 
 @media (max-width: 1446px) {
 
-    .descriptionMassage {
+    .descriptionNutrition {
         display: flex;
         flex-direction: column;
         align-items: center;
         
     }
     
-    .descriptionMassage p {
+    .descriptionNutrition p {
         width: 600px;
         min-width: 300px;
     }
 }
 
 @media (max-width: 663px) {
-    .descriptionMassage p {
+    .descriptionNutrition p {
         width: 100%;
         margin-left: 25px;
         margin-right: 25px;
     }
 
-    .descriptionMassage img {
+    .descriptionNutrition img {
         width: 100%;
     }
 
 }
-

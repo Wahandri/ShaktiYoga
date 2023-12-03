@@ -6,9 +6,9 @@ export default function Yoga() {
   return (
     <div className='boxYoga flex column center'>
       <h1 className='title'>Raja <span className='blueColor'>Yoga</span></h1>
-      <div className='descriptionYoga flex center margin'>
-        <div>
-          <img className='borderRadius imgCoaching' src={meditation} alt=''/>
+      <div className='descriptionYoga margin'>
+        <div className=''>
+          <img className='imgYoga borderRadius imgCoaching' src={meditation} alt=''/>
         </div>
         <p>
           Descubre la esencia del Raja Yoga, donde fusionamos la 
