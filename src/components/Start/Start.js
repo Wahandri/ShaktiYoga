@@ -11,7 +11,7 @@ import Nutrition from '../Nutrition/Nutrition.js'
 export default function Start() {
 
   return (
-    <div className='flex column center'>
+    <div className='boxStart flex column center'>
         <Header />
         <div className='startHeader'>
             <img className='logoShakti' src={logoShakti} alt=""/>

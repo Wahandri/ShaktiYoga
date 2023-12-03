@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Yoga.css";
 import meditation from "../../images/meditacion-playa.jpg";
+import { Link } from 'react-router-dom';
 
 export default function Yoga() {
   return (
@@ -22,6 +23,9 @@ export default function Yoga() {
           tanto físico como mental.
         </p>
       </div>
+      <Link to='/yoga'>
+          <button className='btn'>Saber mas</button>
+      </Link>
     </div>
   );
 }

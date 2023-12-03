@@ -1,12 +1,12 @@
 import React from 'react'
 import './Meditation.css'
-import meditation from "../../images/meditacion-playa.jpg"
 import meditation2 from "../../images/osho-meditation-live-music-camp-in-romania-kundalini.jpg"
 import meditation3 from "../../images/head-contact.jpg"
 import meditation4 from "../../images/osho-dynamic-meditation-1.jpg"
 
 import { Carousel } from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
+import { Link } from 'react-router-dom'
 
 export default function Meditation() {
   return (
@@ -35,6 +35,9 @@ export default function Meditation() {
           Como dijo Osho: "Mi meditación es sencilla, no requiere ninguna práctica compleja". Únete a nosotros para experimentar la armonía y la paz interior a través de estas formas únicas de meditación.
         </p>
       </div>
+      <Link to='/meditation'>
+        <button className='btn'>Saber mas</button>
+      </Link>
     </div>
   )
 }

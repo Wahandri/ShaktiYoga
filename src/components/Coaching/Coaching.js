@@ -2,7 +2,7 @@ import React from 'react';
 import "./Coaching.css";
 import imgPositive from "../../images/positive.jpg";
 import imgTeam from "../../images/emocionalcoaching.jpg";
-import BtnLink from '../BtnLink/BtnLink';
+import { Link } from 'react-router-dom';
 
 export default function Coaching() {
   return (
@@ -34,7 +34,9 @@ export default function Coaching() {
                 <img className='imgCoaching margin' src={imgTeam} alt='Coaching Emocional' />
             </div>
         </div>
-        <BtnLink LinkTo="/coaching" BtnText="Más información" />
+        <Link to='/coaching'>
+            <button className='btn'>Saber mas</button>
+        </Link> 
     </div>
   );
 }

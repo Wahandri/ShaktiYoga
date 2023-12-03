@@ -6,6 +6,7 @@
     background-color: #a2122f15;;
 }
 
+
 .imgLogo {
     margin-left: 30px;
     background: rgb(255,255,255);
@@ -19,6 +20,8 @@
 }
 
 .ruteNavBar {
+    color: black;
+    text-decoration: none;
     padding: 4px;
     border-radius: 5px;
     font-size: 15px;

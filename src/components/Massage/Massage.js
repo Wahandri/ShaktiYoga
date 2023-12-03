@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Massage.css"
 import massage from "../../images/Masaje.png"
+import { Link } from 'react-router-dom'
 
 export default function Massage() {
   return (
@@ -12,6 +13,10 @@ export default function Massage() {
           </p>
           <img className='imgMassage borderRadius imgCoaching' src={massage} alt=''/>
         </div>
+        <Link to='/massage'>
+            <button className='btn'>Saber mas</button>
+        </Link>
+        
     </div>
   )
 }
