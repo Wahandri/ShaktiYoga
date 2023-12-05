@@ -1,6 +1,9 @@
 .boxMassage {
     width: 100%;
     background-color: rgba(117, 3, 193, 0.076);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .descriptionMassage {

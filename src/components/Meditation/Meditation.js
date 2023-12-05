@@ -12,7 +12,7 @@ export default function Meditation() {
   return (
     <div className='boxMeditation flex column center margin'>
       <h1 className='title'><span className='pinkColor'>Meditación</span> Dinámica</h1>
-      <div className='flex column center responsiveMeditation'>
+      <div className='meditation1 flex column center responsiveMeditation'>
         <p className='margin textSmall'>
           Descubre la simplicidad y la profunda conexión con nuestras meditaciones dinámicas. En lugar de prácticas complejas, te invitamos a bailar, a cantar y a encontrar la quietud en el silencio.
         </p>

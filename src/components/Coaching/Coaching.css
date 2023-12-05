@@ -8,6 +8,19 @@
     align-items: center;
 }
 
+.coaching1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.coaching2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
 .imgCoaching {
     width: 650px;
     border-radius: 20px;
