@@ -3,6 +3,9 @@
     width: 100%;
     background-color: #a2122f0b;
     padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imgCoaching {

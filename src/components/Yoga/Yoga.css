@@ -1,6 +1,9 @@
 .boxYoga {
     width: 100%;
     background-color: rgba(255, 166, 0, 0.101);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .descriptionYoga {
