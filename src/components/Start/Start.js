@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Start.css"
 import logoShakti from "../../images/shakti.png"
-import Header from '../Header/Header'
 import Coaching from '../Coaching/Coaching'
 import Meditation from '../Meditation/Meditation'
 import Massage from '../Massage/Massage'
@@ -12,7 +11,6 @@ export default function Start() {
 
   return (
     <div className='boxStart flex column center'>
-        <Header />
         <div className='startHeader'>
             <img className='logoShakti' src={logoShakti} alt=""/>
             <div className='margin'>

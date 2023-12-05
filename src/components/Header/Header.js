@@ -8,15 +8,14 @@ import { Link } from 'react-router-dom'
 export default function Header() {
   return (
     <div className='boxHeader'>
-        <div className='imgLogo'><img width="90px" src={logoShakti} alt=''/></div>
+        <Link to="/" className='imgLogo'><img width="90px" src={logoShakti} alt=''/></Link>
         <div className='navBar'>
-          <Link className='ruteNavBar' to="/coaching">coach</Link>
-          <p className='ruteNavBar center flex'>Coaching</p>
-          <p className='ruteNavBar center flex'>Meditacion</p>
-          <p className='ruteNavBar center flex'>Masajes</p>
-          <p className='ruteNavBar center flex'>Yoga</p>
-          <p className='ruteNavBar center flex'>Nutricion</p>
-          <p className='ruteNavBar center flex'>Contáctanos</p>
+          <Link className='ruteNavBar flex center' to="/coaching">Coaching</Link>
+          <Link className='ruteNavBar flex center' to="/meditation">Meditacion</Link>
+          <Link className='ruteNavBar flex center' to="/massage">Masajes</Link>
+          <Link className='ruteNavBar flex center' to="/yoga">Yoga</Link>
+          <Link className='ruteNavBar flex center' to="/nutrition">Nutricion</Link>
+          <Link className='ruteNavBar flex center' to="/contact">Contáctanos</Link>
 
         </div>
         <div className='socialNetworkIcons'>
