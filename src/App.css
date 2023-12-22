@@ -1,24 +1,4 @@
-.flex {
-    display: flex;
-}
 
-.column {
-    flex-direction: column;
-}
-
-.margin {
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.paddingTop {
-    padding-top: 50px;
-}
-
-.center {
-    justify-content: center;
-    align-items: center;
-}
 
 
 /* Font */
