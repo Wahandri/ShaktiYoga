@@ -47,10 +47,26 @@
     text-shadow: 1px 1px #315b9a;
 }
 
+@media (max-width: 1068px) {
+    .startHeader {
+        flex-direction: column;
+    }
+
+    .logoShakti {
+        width: 300px;
+    }
+}
+
 @media (max-width: 768px) {
   .title {
     text-align: center;
   }
+}
+
+@media (max-width: 600px) {
+    .textSmall {
+        width: 95%;
+    }
 }
 
 @media (max-width: 480px) {
