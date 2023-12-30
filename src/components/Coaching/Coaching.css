@@ -49,25 +49,7 @@
     box-shadow: 5px 5px 10px #69372682;
 }
 
-.imgDiference {
-    width: 600px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 10px #69372682;
-}
 
-.imgTeam {
-    width: 600px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 5px 5px 10px #69372682;
-}
-
-.imgCell {
-    width: 600px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    box-shadow: 5px 5px 10px #69372682;
-}
 
 .descriptionCoaching {
     width: 700px;
@@ -87,6 +69,12 @@
     
     .revers {
         flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 1250px) {
+    .PageCoachingDescription {
+        flex-direction: column;
     }
 }
 

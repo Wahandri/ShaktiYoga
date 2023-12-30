@@ -1,5 +1,6 @@
 import React from "react";
 import "./Coaching.css";
+import "./PageCoaching.css";
 import diference from "../../images/coachingDiference.jpeg";
 import team from "../../images/Team.jpg";
 import cell from "../../images/cell.jpg";
@@ -84,7 +85,7 @@ export default function PageCoaching() {
           </div>
         </div>
       </div>
-      <div className="flex">
+      <div className="imgPagesCoaching">
         <img className="imgCell" alt="" src={cell} />
         <img className="imgDiference" alt="" src={diference} />
         <img className="imgTeam" alt="" src={team} />
