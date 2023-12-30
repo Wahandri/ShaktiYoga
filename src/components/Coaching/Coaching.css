@@ -11,12 +11,17 @@
 .boxPageCoaching {
     padding-top: 50px;
     width: 100%;
-    background-color: #a2122f0b;
+
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.backgroundPink {
+    background-color: #f6a5c40f;
+    width: 100%;
 }
 
 .coaching1 {
@@ -32,9 +37,35 @@
 
 }
 
+.PageCoachingDescription {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
 .imgCoaching {
     width: 650px;
     border-radius: 20px;
+    box-shadow: 5px 5px 10px #69372682;
+}
+
+.imgDiference {
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #69372682;
+}
+
+.imgTeam {
+    width: 600px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px 5px 10px #69372682;
+}
+
+.imgCell {
+    width: 600px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     box-shadow: 5px 5px 10px #69372682;
 }
 
