@@ -12,12 +12,11 @@ export default function Start() {
     <div className="boxStart flex column center">
       <div className="startHeader">
         <img className="logoShakti" src={logoShakti} alt="" />
-        <div className="margin">
-          <div className="flex center">
-            <h1 className="title">
-              Bienvenido a <span className="pinkColor">Shakti</span>
-            </h1>
-          </div>
+
+        <div className="welcomeStart">
+          <h1 className="title">
+            Bienvenido a <span className="pinkColor">Shakti</span>
+          </h1>
           <p className="textSmall">
             Descubre el poder transformador de tus emociones con nuestro{" "}
             <span className="pinkColor">procesos personalizado</span>.<br />
