@@ -14,7 +14,9 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-        <div className="marginHeader"> </div>
+        <div className="marginHeader">
+          <p> </p>
+        </div>
         <Routes>
           <Route path="/" element={<Start />} />
           <Route path="/coaching" element={<PageCoaching />} />
