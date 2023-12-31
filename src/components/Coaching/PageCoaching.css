@@ -1,3 +1,4 @@
+
 .imgPagesCoaching {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -26,7 +27,7 @@
 
 @media (max-width: 1550px) {
     .imgDiference {
-        width: 400px;
+        width: 500px;
     }
 
     .imgTeam {
@@ -46,7 +47,7 @@
 
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1150px) {
 
     .imgPagesCoaching {
         display: flex;
@@ -62,3 +63,9 @@
     }
 }
 
+@media (max-width: 550px) {
+    .imgDiference {
+        width: 100%;
+        margin: 10px;
+    }
+}
