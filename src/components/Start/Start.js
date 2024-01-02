@@ -11,16 +11,19 @@ export default function Start() {
   return (
     <div className="boxStart flex column center">
       <div className="startHeader">
-        <img className="logoShakti" src={logoShakti} alt="" />
-
-        <div className="welcomeStart">
+        <img
+          className="noOpacity logoShakti"
+          src={logoShakti}
+          alt="Logo Shakti"
+        />
+        <div className="noOpacity welcomeStart">
           <h1 className="title">
             Bienvenido a <span className="pinkColor">Shakti</span>
           </h1>
-          <p className="textSmall">
+          <p className=" textSmall">
             Descubre el poder transformador de tus emociones con nuestro{" "}
-            <span className="pinkColor">procesos personalizado</span>.<br />
-            En <span className="pinkColor">Shakti</span>, te acompañamos en un
+            <span className="pinkColor">procesos personalizado</span>. En{" "}
+            <span className="pinkColor">Shakti</span>, te acompañamos en un
             viaje hacia la autenticidad y el bienestar emocional.
             <br />
             Encuentra claridad, supera desafíos y construye relaciones más
