@@ -12,7 +12,7 @@ export default function PageCoaching() {
         <div className="coachingHeader">
           <div className="flex center">
             <h1 className="title">
-              ¿Qué es el <span className="pinkColor">Coaching</span>?
+              <span className="pinkColor">¿Qué es el Coaching?</span>
             </h1>
           </div>
           <p className="textSmall">
@@ -36,8 +36,9 @@ export default function PageCoaching() {
         <div className="coachingHeader ">
           <div className="flex center">
             <h2 className="title">
-              ¿Qué es una
-              <span className="pinkColor"> Intervención Estratégica</span>?
+              <span className="pinkColor">
+                ¿Qué es una Intervención Estratégica?
+              </span>
             </h2>
           </div>
           <div className="flex">
@@ -71,16 +72,6 @@ export default function PageCoaching() {
                   <br />
                 </ul>
               </div>
-              <p>
-                ¿Te has preguntado por qué la terapia tradicional tarda tanto en
-                dar resultados?
-                <br />
-                <br /> ¿Te ha ocurrido estar por años arrastrando un dolor y
-                tener sin saber cómo salir de ello?
-                <br />
-                <br /> ¿Te has sentido sin poder avanzar por mucho que intentas
-                cambiar?
-              </p>
             </div>
           </div>
         </div>
@@ -90,6 +81,15 @@ export default function PageCoaching() {
         <img className="imgDiference" alt="" src={diference} />
         <img className="imgTeam" alt="" src={team} />
       </div>
+      <h1>
+        ¿Te has preguntado por qué la terapia tradicional tarda tanto en dar
+        resultados?
+        <br />
+        <br /> ¿Te ha ocurrido estar por años arrastrando un dolor y tener sin
+        saber cómo salir de ello?
+        <br />
+        <br /> ¿Te has sentido sin poder avanzar por mucho que intentas cambiar?
+      </h1>
     </div>
   );
 }

@@ -26,12 +26,6 @@
 
 }
 
-.PageCoachingDescription {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-}
-
 .imgCoaching {
     width: 650px;
     border-radius: 20px;

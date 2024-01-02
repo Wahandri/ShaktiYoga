@@ -9,10 +9,18 @@
     margin-top: 100px;
 }
 
+.PageCoachingDescription {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+}
+
 .imgPagesCoaching {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .imgDiference {
