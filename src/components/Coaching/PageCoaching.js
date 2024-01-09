@@ -51,24 +51,21 @@ export default function PageCoaching() {
                   </span>
                 </p>
                 <ul>
-                  <li>
-                    <p className="textSmall">
-                      🌸<span className="pinkColor">Descubrir</span> y sanar una
-                      herida emocional del pasado.
-                    </p>
-                  </li>
-                  <li>
-                    <p className="textSmall">
-                      🌸<span className="pinkColor">Desbloquear</span> una
-                      emoción recurrente.
-                    </p>
-                  </li>
-                  <li>
-                    <p className="textSmall">
-                      🌸<span className="pinkColor">Elevar</span> el potencial
-                      de una persona.
-                    </p>
-                  </li>
+                  <p className="textSmall">
+                    🌸 <span className="pinkColor">Descubrir</span> y sanar una
+                    herida emocional del pasado.
+                  </p>
+
+                  <p className="textSmall">
+                    🌸 <span className="pinkColor">Desbloquear</span> una
+                    emoción recurrente.
+                  </p>
+
+                  <p className="textSmall">
+                    🌸 <span className="pinkColor">Elevar</span> el potencial de
+                    una persona.
+                  </p>
+
                   <br />
                 </ul>
               </div>

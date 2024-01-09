@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import "./Header.css";
-import logoShakti from "../../images/shaktiSmall.png";
+import logoShakti from "../../images/shakti.png";
 import facebook from "../../images/facebook.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import shop from "../../images/bolsa-de-la-compra.png";
 import menu from "../../images/menu.png";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
 
   const closeMenu = () => {
     setMenuOpen(false);
@@ -17,10 +18,14 @@ export default function Header() {
     setMenuOpen(!menuOpen);
   };
 
+  const isActive = (path) => {
+    return location.pathname === path;
+  };
+
   return (
     <div className={`boxHeader ${menuOpen ? "menuOpen" : ""}`}>
       <Link to="/" onClick={closeMenu} className="imgLogo">
-        <img width="90px" src={logoShakti} title="Inicio" alt="" />
+        <img className="imgLogoSimona" src={logoShakti} title="Inicio" alt="" />
       </Link>
       <div className="menuButton" onClick={toggleMenu}>
         <img src={menu} title="Menu" width="35px" alt="menu" />
@@ -28,42 +33,60 @@ export default function Header() {
       <ul className="navBar">
         <Link
           onClick={closeMenu}
-          className="ruteNavBar flex center"
+          className={`linkLi ${isActive("/") ? "active" : ""}`}
+          to="/"
+        >
+          Inicio
+        </Link>
+        <hr className="line" />
+        <Link
+          onClick={closeMenu}
+          className={`linkLi ${isActive("/coaching") ? "active" : ""}`}
           to="/coaching"
         >
           Coaching
         </Link>
+        <hr className="line" />
         <Link
           onClick={closeMenu}
-          className="ruteNavBar flex center"
+          className={`linkLi ${isActive("/meditation") ? "active" : ""}`}
           to="/meditation"
         >
           Meditacion
         </Link>
+        <hr className="line" />
         <Link
           onClick={closeMenu}
-          className="ruteNavBar flex center"
+          className={`linkLi ${isActive("/massage") ? "active" : ""}`}
           to="/massage"
         >
           Masajes
         </Link>
-        <Link onClick={closeMenu} className="ruteNavBar flex center" to="/yoga">
-          Yoga
-        </Link>
+        <hr className="line" />
         <Link
           onClick={closeMenu}
-          className="ruteNavBar flex center"
+          className={`linkLi ${isActive("/yoga") ? "active" : ""}`}
+          to="/yoga"
+        >
+          Yoga
+        </Link>
+        <hr className="line" />
+        <Link
+          onClick={closeMenu}
+          className={`linkLi ${isActive("/nutrition") ? "active" : ""}`}
           to="/nutrition"
         >
           Nutricion
         </Link>
+        <hr className="line" />
         <Link
           onClick={closeMenu}
-          className="ruteNavBar flex center"
+          className={`linkLi ${isActive("/contact") ? "active" : ""}`}
           to="/contact"
         >
           Contáctanos
         </Link>
+        <hr className="line" />
       </ul>
       <div className="socialNetworkIcons">
         <a

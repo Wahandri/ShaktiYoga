@@ -1,6 +1,3 @@
-body {
-    /* background-color: #69372614; */
-}
 
 
 
@@ -12,8 +9,5 @@ body {
 .color5 { color: #693726 };
 /* --------------------------------------- */
 
-.color1 { color: #e46596 };
-.color2 { color: #eb7eaf };
-.color3 { color: #f298c8 };
-.color4 { color: #f8b1e0 };
-.color5 { color: #ffcaf9 };
+.colorTexto { color: #9464F4 };
+.colorFondo { color: #9464f440 };

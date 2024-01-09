@@ -24,7 +24,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.724);
     height: 650px;
 
 }
@@ -64,8 +64,8 @@
 }
 
 .pinkColor {
-    color: #ffc2ce !important;
-    text-shadow: 1px 1px #fd6e8a;
+    color: #9464F4 !important;
+    text-shadow: 1px 1px #4f289c;
 }
 
 .blueColor {
