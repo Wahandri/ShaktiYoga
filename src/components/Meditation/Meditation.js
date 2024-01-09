@@ -23,6 +23,9 @@ export default function Meditation() {
         <div className="Carousel">
           <Carousel autoPlay infiniteLoop>
             <div>
+              <img className="borderRadius" src={meditation2} alt="" />
+            </div>
+            <div>
               <img className="borderRadius" src={meditation3} alt="" />
             </div>
             <div>
