@@ -8,7 +8,7 @@ export default function Coaching() {
   return (
     <div className="boxCoaching flex column center">
       <h1 className="title">
-        Terapia<span class="blueColor"> breve</span> estratégica
+        <span className="pinkColor">Crecimiento y Bienestar</span>
       </h1>
 
       {/* Sección 1: Intervención Emocional */}
@@ -21,9 +21,9 @@ export default function Coaching() {
           />
         </div>
         <div className="descriptionCoaching">
-          <h1 className="titleSmall">Intervención Emocional Estratégica</h1>
+          <h1 className="titleSmall">Terapia breve strategica</h1>
           <p>
-            Descubre conmigo, <span className="blueColor">Simona Zappoli</span>,
+            Descubre conmigo, <span className="pinkColor">Simona Zappoli</span>,
             la eficacia de la intervención emocional estratégica. Este proceso
             te guiará desde tu presente hacia tu pasado, desbloqueando emociones
             y traumas que pueden estar impidiéndote avanzar. A través de este
@@ -36,11 +36,7 @@ export default function Coaching() {
       {/* Sección 2: Coaching */}
       <div className="coaching2 flex paddingTop shadowLight responsiveCoaching revers">
         <div className="descriptionCoaching">
-          <h1 className="titleSmall">
-            Coaching de Bienestar:
-            <br />
-            "Crea tu futuro brillante"
-          </h1>
+          <h1 className="titleSmall">Psicología holística y coaching</h1>
           <p>
             Sumérgete conmigo en el proceso de Coaching Emocional. Desde tu
             presente hacia tu futuro, exploraremos juntos la creación de una
