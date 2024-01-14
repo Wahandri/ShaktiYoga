@@ -1,0 +1,35 @@
+.bodyCardDefinition {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.imgCardDefinition {
+    width: 320px;
+    border-radius: 100%;
+    margin-left: 50px;
+    box-shadow: 10px 10px 20px rgba(117, 117, 117, 0.449);
+}
+
+.cardDescription {
+    width: 1500px;
+    display: flex;
+    gap: 60px;
+}
+
+.btnCardDefinition {
+    position: relative;
+    left: 40px;
+}
+
+.borderDescription {
+    box-shadow: 10px 10px 20px rgba(117, 117, 117, 0.449);
+    border-radius: 10px;
+    background-color: #fff;
+}

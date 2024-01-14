@@ -1,3 +1,12 @@
+.contentHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.empyHeader {
+    height: 130px;
+}
+
 .boxHeader {
     position: fixed;
     top: 0;

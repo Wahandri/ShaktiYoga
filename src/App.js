@@ -2,11 +2,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Start from "./components/Start/Start";
 import Header from "./components/Header/Header";
-import PageCoaching from "./components/Coaching/PageCoaching";
-import PageMeditation from "./components/Meditation/PageMeditation";
-import PageMassage from "./components/Massage/PageMassage";
-import PageYoga from "./components/Yoga/PageYoga";
-import PageNutrition from "./components/Nutrition/PageNutrition";
+import PageCoaching from "./components/PageCoaching/PageCoaching";
+import PageMeditation from "./components/PageMeditation/PageMeditation";
+import PageMassage from "./components/PageMassage/PageMassage";
+import PageYoga from "./components/PageYoga/PageYoga";
+import PageNutrition from "./components/PageNutrition/PageNutrition";
 import PageContact from "./components/PageContact/PageContact";
 
 function App() {
