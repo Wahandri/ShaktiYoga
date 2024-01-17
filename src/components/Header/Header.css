@@ -16,21 +16,17 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    /* width: 100%; */
     height: 130px;
     background-color: #fff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
     border: 1px solid #8D50FF;
-    /* margin-top: 10px; */
     margin-left: 9px;
     margin-right: 9px;
 }
 
 .imgLogoSimona {
     margin-left: 30px;
-    /* background: rgb(255,255,255); */
-    /* background: radial-gradient(circle, rgba(250, 250, 250, 0.467) 1%, rgba(255, 255, 255, 0) 100%); */
     display: block;
     width: 180px;
     

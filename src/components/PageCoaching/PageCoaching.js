@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./PageCoaching.css";
 import imgHeaderPageCoaching from "../../images/emocionalcoaching.jpg";
 import diferences from "../../images/coachingDiference.jpeg";
@@ -18,6 +18,21 @@ export default function PageCoaching() {
   const [isIntervencionOpen, setIsIntervencionOpen] = useState(false);
   const [isComoHaremosOpen, setIsComoHaremosOpen] = useState(false);
   const [isPorQueConmigoOpen, setIsPorQueConmigoOpen] = useState(false);
+
+  const toggleIsCoachingOpen = () => setIsCoachingOpen(!isCoachingOpen);
+  const toggleIsIntervencionOpen = () =>
+    setIsIntervencionOpen(!isIntervencionOpen);
+  const toggleIsComoHaremosOpen = () =>
+    setIsComoHaremosOpen(!isComoHaremosOpen);
+  const toggleIsPorQueConmigoOpen = () =>
+    setIsPorQueConmigoOpen(!isPorQueConmigoOpen);
+
+  useEffect(() => {
+    setIsCoachingOpen(false);
+    setIsIntervencionOpen(false);
+    setIsComoHaremosOpen(false);
+    setIsPorQueConmigoOpen(false);
+  }, []);
 
   return (
     <div className="boxPageCoaching">
@@ -188,12 +203,13 @@ export default function PageCoaching() {
         </div>
       </div>
 
+      <h2>"Tu bienestar también mejora la vida de quienes te rodean"</h2>
+
       <section className="boxDetailsPageCoaching">
         <details
-          // name="details"
           className="detailsPageCoaching"
           open={isCoachingOpen}
-          onClick={() => setIsCoachingOpen(!isCoachingOpen)}
+          onClick={toggleIsCoachingOpen}
         >
           <summary className="summaryPageCoaching">
             {<img width="40px" src={iconTime} alt="" />}{" "}
@@ -215,10 +231,9 @@ export default function PageCoaching() {
         </details>
 
         <details
-          // name="details"
           className="detailsPageCoaching"
           open={isIntervencionOpen}
-          onClick={() => setIsIntervencionOpen(!isIntervencionOpen)}
+          onClick={toggleIsIntervencionOpen}
         >
           <summary className="summaryPageCoaching">
             {<img width="40px" src={iconTime2} alt="" />}{" "}
@@ -238,10 +253,9 @@ export default function PageCoaching() {
         </details>
 
         <details
-          // name="details"
           className="detailsPageCoaching"
           open={isComoHaremosOpen}
-          onClick={() => setIsComoHaremosOpen(!isComoHaremosOpen)}
+          onClick={toggleIsComoHaremosOpen}
         >
           <summary className="summaryPageCoaching">
             {<img width="40px" src={iconCheck} alt="" />}{" "}
@@ -285,10 +299,9 @@ export default function PageCoaching() {
         </details>
 
         <details
-          // name="details"
           className="detailsPageCoaching"
           open={isPorQueConmigoOpen}
-          onClick={() => setIsPorQueConmigoOpen(!isPorQueConmigoOpen)}
+          onClick={toggleIsPorQueConmigoOpen}
         >
           <summary className="summaryPageCoaching">
             {<img width="40px" src={iconRespect} alt="" />}{" "}
@@ -313,6 +326,7 @@ export default function PageCoaching() {
           </div>
         </details>
       </section>
+
       <div>
         <h2>Descripcion del video</h2>
         <iframe
