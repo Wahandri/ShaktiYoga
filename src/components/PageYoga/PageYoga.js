@@ -9,22 +9,25 @@ export default function PageYoga() {
   return (
     <div className="boxPageYoga">
       <section className="headerPageYoga">
-        <div className="flex-column size50 backgroundDark">
-          <h1 className="whiteColor">"El camino del Yoga"</h1>
-          <p>
-            Te damos la bienvenida al mundo del yoga. Nuestro yoga tiene como
-            objetivo hacer que la práctica del yoga sea accesible y divertida.
-            Creemos que practicar yoga a diario puede tener enormes beneficios
-            para la salud, ayudando a mejorar la calidad de nuestra vida
-          </p>
-        </div>
-        <div className="boxLogoDario">
-          <img className="logoDario" src={LogoDario} alt="" />
-        </div>
-        <div className="size50">
-          <p> </p>
+        <div className="flex btw w-100 aling-center">
+          <div className="flex-column size50 backgroundDark">
+            <h1 className="whiteColor">"El camino del Yoga"</h1>
+            <p>
+              Te damos la bienvenida al mundo del yoga. Nuestro yoga tiene como
+              objetivo hacer que la práctica del yoga sea accesible y divertida.
+              Creemos que practicar yoga a diario puede tener enormes beneficios
+              para la salud, ayudando a mejorar la calidad de nuestra vida
+            </p>
+          </div>
+          <div className="boxLogoDario">
+            <img className="logoDario" src={LogoDario} alt="" />
+          </div>
+          <div className="size50">
+            <p> </p>
+          </div>
         </div>
       </section>
+
       <div className="size100 ">
         <p>
           "Para nosotros en Shakti Yoga no hay nada mejor que ser testigo de la
@@ -37,8 +40,25 @@ export default function PageYoga() {
         </p>
       </div>
 
+      <section className="borderCard ">
+        <div>
+          <h1>¿Porqué no somos la mejor versión de nosotros mismos?</h1>
+          <p>
+            Esta pregunta me ha atormentado durante años. Esta misma pregunta me
+            llevó a participar en muchos cursos, retiros, seminarios de
+            programación neuro linguistica , constelaciones familiares, ciencia
+            Cuántica, Qu Gong, falun gong ,tantra y zen. En la escuela Ram tao
+            aprendí las técnicas taoísta. El firewalking para mí fue un gran
+            cambio y desde hace 20 años soy entrenador , experto y autor del
+            libro: EL FUEGO QUE CURA. Seguí formándome en Método Silva, técnicas
+            de auto hipnosis y autosugestión, autogenic training, maestro Reiki
+            master
+          </p>
+        </div>
+      </section>
+
       <section className="bodyPageYoga">
-        <div className="sectionPageYoga">
+        <div className="sectionPageYoga borderCard">
           <img className="imgSectionYoga" src={imgYoga1} alt="" />
           <div className="flex-column descriptionSectionYoga">
             <h1>RAYA YOGA</h1>
@@ -65,7 +85,7 @@ export default function PageYoga() {
             </p>
           </div>
         </div>
-        <div className="sectionPageYoga">
+        <div className="sectionPageYoga borderCard">
           <img className="imgSectionYoga" src={meditation} alt="" />
           <div className="flex-column descriptionSectionYoga">
             <h1>MEDITACION</h1>
@@ -82,7 +102,7 @@ export default function PageYoga() {
               comprensión, podemos examinar dos aspectos distintos. Uno es el
               acto formal y concreto que comienza sentándonos en una posición
               adecuada a nuestras posibilidades (con las piernas cruzadas, sobre
-              un cojín o en una silla) y continúa con el uso de usa serie de
+              un cojín o en una silla) y continúa con el uso de una serie de
               técnicas y ayudas a la atención para desarrollar habilidades de
               escucha y observación. El otro es el estado meditativo: ya no hay
               ni un hacer ni un obtener, pero uno puede encontrarse en una
@@ -91,7 +111,7 @@ export default function PageYoga() {
             </p>
           </div>
         </div>
-        <div className="sectionPageYoga">
+        <div className="sectionPageYoga borderCard">
           <img className="imgSectionYoga" src={mujeresYoga} alt="" />
           <div className="flex-column descriptionSectionYoga">
             <h1>LAS CLASES</h1>

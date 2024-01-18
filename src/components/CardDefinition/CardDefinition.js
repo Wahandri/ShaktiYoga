@@ -12,12 +12,12 @@ export default function CardDefinition({
   return (
     <div className="bodyCardDefinition">
       <div className="cardDescription">
-        <img className="imgCardDefinition" src={img} alt="" />
-        <div className="borderDescription">
+        <img className="imgCardDefinition borderCard" src={img} alt="" />
+        <div className="borderCard padding-20">
           <h2>{title}</h2>
           <p>{description}</p>
           <p>{description2}</p>
-          <Link to={url} className="btn btnCardDefinition">
+          <Link to={url} className="myBtn btnCardDefinition">
             Ver mas
           </Link>
         </div>

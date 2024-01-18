@@ -39,7 +39,7 @@ export default function Header() {
         <ul className="navBar">
           <Link
             onClick={closeMenu}
-            className={`linkLi ${isActive("/") ? "active" : ""}`}
+            className={`myBtn ${isActive("/") ? "active" : ""}`}
             to="/"
           >
             Inicio
@@ -47,7 +47,7 @@ export default function Header() {
           <hr className="line" />
           <Link
             onClick={closeMenu}
-            className={`linkLi ${isActive("/coaching") ? "active" : ""}`}
+            className={`myBtn ${isActive("/coaching") ? "active" : ""}`}
             to="/coaching"
           >
             Coaching
@@ -55,7 +55,7 @@ export default function Header() {
           <hr className="line" />
           <Link
             onClick={closeMenu}
-            className={`linkLi ${isActive("/meditation") ? "active" : ""}`}
+            className={`myBtn ${isActive("/meditation") ? "active" : ""}`}
             to="/meditation"
           >
             Meditacion
@@ -63,7 +63,7 @@ export default function Header() {
           <hr className="line" />
           <Link
             onClick={closeMenu}
-            className={`linkLi ${isActive("/massage") ? "active" : ""}`}
+            className={`myBtn ${isActive("/massage") ? "active" : ""}`}
             to="/massage"
           >
             Masajes
@@ -71,15 +71,7 @@ export default function Header() {
           <hr className="line" />
           <Link
             onClick={closeMenu}
-            className={`linkLi ${isActive("/yoga") ? "active" : ""}`}
-            to="/yoga"
-          >
-            Yoga
-          </Link>
-          <hr className="line" />
-          <Link
-            onClick={closeMenu}
-            className={`linkLi ${isActive("/nutrition") ? "active" : ""}`}
+            className={`myBtn ${isActive("/nutrition") ? "active" : ""}`}
             to="/nutrition"
           >
             Nutricion
@@ -87,7 +79,15 @@ export default function Header() {
           <hr className="line" />
           <Link
             onClick={closeMenu}
-            className={`linkLi ${isActive("/contact") ? "active" : ""}`}
+            className={`myBtn ${isActive("/yoga") ? "active" : ""}`}
+            to="/yoga"
+          >
+            Yoga
+          </Link>
+          <hr className="line" />
+          <Link
+            onClick={closeMenu}
+            className={`myBtn ${isActive("/contact") ? "active" : ""}`}
             to="/contact"
           >
             Contáctanos

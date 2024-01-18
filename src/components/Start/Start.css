@@ -15,20 +15,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 660px;
+    height: 89vh;
     width: 100%;
-}
-
-.startHeader::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(255, 255, 255, 0.724);
-    height: 660px;
-
 }
 
 .imagesHeaderStart {
@@ -62,8 +50,6 @@
 }
 
 .logoShakti {
-    /* background: rgb(255, 255, 255);
-    background: radial-gradient(circle, rgba(255, 255, 255, 1) 1%, rgba(148, 187, 233, 0) 60%); */
     width: 450px;
     float: left;
 }
@@ -88,11 +74,29 @@
     width: 560px;
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+}
 
 
-@media (max-width: 1068px) {
+
+@media (max-width: 1300px) {
     .startHeader {
-        flex-direction: column;
+        grid-template-columns: 1fr;
+        height: 100%;
+    }
+
+    .imagesHeaderStart {
+        flex-direction: column-reverse;
+    }
+
+    .imgSimona {
+        margin-top: 100px;
+    }
+
+    .startHeader::before {
+        height: 100%;
     }
 
     .logoShakti {
@@ -100,15 +104,24 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 780px) {
   .title {
     text-align: center;
+  }
+
+  .welcomeDescription {
+        width: 90%;
+    
   }
 }
 
 @media (max-width: 600px) {
     .textSmall {
         width: 95%;
+    }
+
+    .imgSimona {
+        width: 300px;
     }
 }
 

@@ -2,7 +2,10 @@
   border-radius: 10px;
 }
 
-/* GLOVAL STYLES */
+/* ----------------GLOVAL STYLES------------------ */
+
+
+/* container */
 .flex {
   display: flex;
 }
@@ -12,14 +15,51 @@
   flex-direction: column;
 }
 
-.padding {
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.btw {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gap-40 {
+  gap: 40px;
+}
+
+.padding-10 {
+  padding: 10px;
+
+}
+
+.padding-20 {
   padding: 20px;
 
 }
 
-.center {
-  justify-content: center;
-  align-items: center;
+/* MARGIN */
+
+.margin-10 {
+  margin: 10px;
+}
+
+.margin-20 {
+  margin: 20px;
+}
+
+.margin-40 {
+  margin: 40px;
+}
+
+/* CARD */
+
+.borderCard {
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
 }
 
 .border-radius {
@@ -31,8 +71,12 @@
 
 }
 
-.gap-40 {
-  gap: 40px;
+
+
+/* WIDTH */
+
+.w-100 {
+  width: 100%;
 }
 
 .w-80 {
@@ -47,54 +91,30 @@
   width: 40%;
 }
 
+/* BUTTON */
 
-
-.btn {
-  align-items: center;
-  background-clip: padding-box;
-  background-color: #8d50ff;
-  border: 1px solid transparent;
-  border-radius: .25rem;
-  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-flex;
-  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  justify-content: center;
-  line-height: 1.25;
-  margin: 0;
-  min-height: 3rem;
-  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+.myBtn {
   position: relative;
+  display: inline-block;
+  /* margin: 15px; */
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
   text-decoration: none;
-  transition: all 250ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: baseline;
-  width: auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
-.btn:hover,
-.btn:focus {
-  background-color: #a879ff;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-}
-
-.btn:hover {
-  transform: translateY(-1px);
-}
-
-.btn:active {
-  background-color: #4200ac;
-  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
-  transform: translateY(0);
-
+  color: #8D50FF;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.8s;
+  border: 2px solid #8D50FF;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #8D50FF;
+} .myBtn:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #8D50FF;
+} .myBtn.active {
+  color: white;
+  background-color:#8D50FF;
 }
 
 

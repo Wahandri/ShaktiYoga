@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 
@@ -14,11 +14,9 @@
     width: 320px;
     border-radius: 100%;
     margin-left: 50px;
-    box-shadow: 10px 10px 20px rgba(117, 117, 117, 0.449);
 }
 
 .cardDescription {
-    width: 1500px;
     display: flex;
     gap: 60px;
 }
@@ -29,7 +27,26 @@
 }
 
 .borderDescription {
-    box-shadow: 10px 10px 20px rgba(117, 117, 117, 0.449);
+    /* box-shadow: 10px 10px 20px rgba(117, 117, 117, 0.449); */
     border-radius: 10px;
     background-color: #fff;
+}
+
+@media (max-width: 1350px) {
+
+    .cardDescription {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .imgCardDefinition {
+        width: 280px;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 450px) {
+
 }

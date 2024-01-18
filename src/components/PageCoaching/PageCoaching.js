@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./PageCoaching.css";
-import imgHeaderPageCoaching from "../../images/emocionalcoaching.jpg";
 import diferences from "../../images/coachingDiference.jpeg";
 import iconTime from "../../images/reloj.png";
 import iconTime2 from "../../images/reloj-de-pared.png";
@@ -36,82 +35,73 @@ export default function PageCoaching() {
 
   return (
     <div className="boxPageCoaching">
-      <div className="headerPageCoaching">
-        <div className="h1HeaderPageCoaching">
+      <div className="headerPageCoaching borderCard">
+        <div className="h1HeaderPageCoaching bg-ligth borderCard">
           <h1>“La curiosidad y el autoconocimiento te llevara a tu destino”</h1>
         </div>
-        <img
-          className="imgHeaderPageCoaching"
-          src={imgHeaderPageCoaching}
-          alt=""
-        />
       </div>
 
       <h1>Alguna de estas frases te resuenan??</h1>
-      <div className="flex center w-60">
+      <div className="flex pinkColor center w-60 borderCard">
         <ul className="ulHeaderPageCoaching">
           <li>
-            <h3 className="blackColor">Me siento culpable</h3>
+            <h3 className="">Me siento culpable</h3>
           </li>
           <li>
-            <h3 className="blackColor">Soy muy vergonzosa</h3>
+            <h3 className="">Soy muy vergonzosa</h3>
           </li>
           <li>
-            <h3 className="blackColor">Tengo miedo al rechazo</h3>
+            <h3 className="">Tengo miedo al rechazo</h3>
           </li>
           <li>
-            <h3 className="blackColor">No gestiono mi tristeza</h3>
+            <h3 className="">No gestiono mi tristeza</h3>
           </li>
           <li>
-            <h3 className="blackColor">Me cuesta poner límites</h3>
+            <h3 className="">Me cuesta poner límites</h3>
           </li>
         </ul>
         <ul className="ulHeaderPageCoaching">
           <li>
-            <h3 className="blackColor">
+            <h3 className="">
               Quiero tomar la decisión de cambiar trabajo pero tengo miedo
             </h3>
           </li>
           <li>
-            <h3 className="blackColor">He sufrido abusos</h3>
+            <h3 className="">He sufrido abusos</h3>
           </li>
           <li>
-            <h3 className="blackColor">Soy muy perfeccionista</h3>
+            <h3 className="">Soy muy perfeccionista</h3>
           </li>
           <li>
-            <h3 className="blackColor">Soy muy indecisa</h3>
+            <h3 className="">Soy muy indecisa</h3>
           </li>
         </ul>
         <ul className="ulHeaderPageCoaching">
           <li>
-            <h3 className="blackColor">Relaciones complicadas de pareja</h3>
+            <h3 className="">Relaciones complicadas de pareja</h3>
           </li>
           <li>
-            <h3 className="blackColor">
-              He perdido la ilusión y quiero recuperarla
-            </h3>
+            <h3 className="">He perdido la ilusión y quiero recuperarla</h3>
           </li>
           <li>
-            <h3 className="blackColor">
-              Me asusto fácil y me da mucha ansiedad
-            </h3>
+            <h3 className="">Me asusto fácil y me da mucha ansiedad</h3>
           </li>
           <li>
-            <h3 className="blackColor">Estoy decepcionada</h3>
+            <h3 className="">Estoy decepcionada</h3>
           </li>
           <li>
-            <h3 className="blackColor">Me estoy separando</h3>
+            <h3 className="">Me estoy separando</h3>
           </li>
         </ul>
       </div>
 
-      <div className="flex-column center w-80 bg-ligth border-radius padding">
+      <div className="flex-column center w-80  padding-20">
         <h1>
           Te expicare que hacemos. Que es el coaching de intervencion
           estrategica y por que puede ayudarte
         </h1>
-        <section className="boxDetailsPageCoaching">
-          <div className="textDetails">
+        <section className="boxDetailsPageCoaching gap-40">
+          <div className="textDetails bg-ligth borderCard">
             <h2 className="blackColor">¿ QUE ES EL COACHING ?</h2>
             <p>
               Es un proceso de acompañamiento personal, profesional y
@@ -122,7 +112,7 @@ export default function PageCoaching() {
             </p>
           </div>
 
-          <div className="textDetails">
+          <div className="textDetails bg-ligth  borderCard">
             <h2 className="blackColor">¿ PARA QUIEN ES ?</h2>
             <p>
               El coaching emocional es para cualquier persona que tenga una
@@ -143,7 +133,7 @@ export default function PageCoaching() {
             </p>
           </div>
 
-          <div className="textDetails">
+          <div className="textDetails bg-ligth gap-40 borderCard">
             <h2 className="blackColor">
               ¿ QUE ES UNA INTERVENCION ESTRATEGICA ?
             </h2>

@@ -4,7 +4,7 @@
 }
 
 .empyHeader {
-    height: 130px;
+    height: 80px;
 }
 
 .boxHeader {
@@ -16,7 +16,7 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    height: 130px;
+    height: 80px;
     background-color: #fff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
@@ -59,7 +59,9 @@
     display: none;
 }
 
-.linkLi {
+
+
+/* .linkLi {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,7 +85,7 @@
 .linkLi.active {
     background-color: #8d50ff;
     color: #fff; 
-}
+} */
     
 
 .socialNetworkIcons {
@@ -110,13 +112,8 @@
 
 
 /* ------Responsive------ */
-@media (max-width: 1475px) {
-    .socialNetworkIcons {
-        flex-direction: column;
-        width: 60px;
-        margin-right: 8px;
-        margin-left: 8px;
-    }
+@media (max-width: 1180px) {
+    
 
     
 }
@@ -130,10 +127,10 @@
         width: 100%;
     }
 
-    .socialNetworkIcons {
+    /* .socialNetworkIcons {
         width: 150px;
         align-items: end;
-    }
+    } */
 
     .linkLi {
         font-size: 30px;
