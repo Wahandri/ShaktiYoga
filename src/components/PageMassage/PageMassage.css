@@ -1,0 +1,49 @@
+.imgHeaderMassage {
+    position: relative; /* Asegúrate de que el contenedor sea relativo */
+    overflow: hidden; /* Para evitar desbordamiento del pseudo-elemento */
+}
+
+.imgHeaderMassage::before {
+    content: ''; 
+    position: absolute; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("../../images/masaje-relajante-scaled.jpg");
+    background-size: cover;
+    background-position: center;
+    /* opacity: 0.4; */
+    z-index: -1; 
+    
+}
+
+.boxMiniCard {
+    position: relative;
+    bottom: 100px;
+}
+
+.titleBoxMiniCard {
+    position: relative;
+    top: 100px;
+}
+
+.boxBeneficios {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.cardBeneficios:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.sectionMassage {
+    cursor: pointer;
+}
+
+.summaryMassage:hover {
+    background-color: #7a52ca;
+}

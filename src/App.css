@@ -25,8 +25,17 @@
   align-items: center;
 }
 
+.space-around {
+  justify-content: space-around;
+  align-items: center;
+}
+
 .gap-40 {
   gap: 40px;
+}
+
+.gap-20 {
+  gap: 20px;
 }
 
 .padding-10 {
@@ -36,6 +45,11 @@
 
 .padding-20 {
   padding: 20px;
+
+}
+
+.padding-40 {
+  padding: 40px;
 
 }
 
@@ -62,8 +76,19 @@
                 -20px -20px 60px #ffffff;
 }
 
+.borderCardOpacity {
+  background-color: #ffffffc9;
+  border-radius: 50px;
+  box-shadow: 20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
 .border-radius {
   border-radius: 10px;
+}
+
+.br-30 {
+  border-radius: 30px;
 }
 
 .bg-ligth {
@@ -71,9 +96,23 @@
 
 }
 
+.bg-black {
+  background-color: #000;
+}
+
+.bg-purple {
+  background-color: #9464F4;
+}
 
 
 /* WIDTH */
+
+.headerImg {
+  width: 100%;
+  height: 90vh;
+  border-radius: 10px;
+  margin: 10px;
+}
 
 .w-100 {
   width: 100%;
@@ -89,6 +128,10 @@
 
 .w-40 {
   width: 40%;
+}
+
+.w-400 {
+  width: 400px;
 }
 
 /* BUTTON */
@@ -120,7 +163,7 @@
 
 /* ---------------------------------------------------------------------- */
 
-/* TEXT COLORS */
+/* TEXT  */
 .whiteColor {
   color: #fff;
 }
@@ -144,6 +187,10 @@
   color: #9464F4;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* ----------- */
 
 /* Font */
@@ -162,7 +209,7 @@ button {
 }
 
 p {
-font-size: 22px;
+font-size: 20px;
 font-family: 'TextFont', sans-serif;
 margin-left: 15px;
 margin-right: 15px;
@@ -174,7 +221,9 @@ p {
 }  
 }
 
-
+h1 {
+  font-size: 40px;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'TitlesFont', sans-serif;

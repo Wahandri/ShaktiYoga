@@ -1,37 +1,31 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./PageCoaching.css";
 import diferences from "../../images/coachingDiference.jpeg";
 import iconTime from "../../images/reloj.png";
 import iconTime2 from "../../images/reloj-de-pared.png";
 import iconCheck from "../../images/check.png";
 import iconRespect from "../../images/apreton-de-manos.png";
-import flechaArriba from "../../images/flecha-hacia-abajo.png";
-import flechaAbajo from "../../images/flecha-hacia-arriba.png";
+import FlechaAbajoIcon from "../../images/flecha-hacia-abajo.png";
+import FlechaArribaIcon from "../../images/flecha-hacia-arriba.png";
 import imgS1 from "../../images/imgS1.jpeg";
 import imgS2 from "../../images/imgS2.jpeg";
 import imgS3 from "../../images/imgS3.jpeg";
 import imgS4 from "../../images/imgS4.jpeg";
 
 export default function PageCoaching() {
-  const [isCoachingOpen, setIsCoachingOpen] = useState(false);
-  const [isIntervencionOpen, setIsIntervencionOpen] = useState(false);
-  const [isComoHaremosOpen, setIsComoHaremosOpen] = useState(false);
-  const [isPorQueConmigoOpen, setIsPorQueConmigoOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState({
+    coachingSession: false,
+    strategicInterventions: false,
+    howWeDoIt: false,
+    whyWithMe: false,
+  });
 
-  const toggleIsCoachingOpen = () => setIsCoachingOpen(!isCoachingOpen);
-  const toggleIsIntervencionOpen = () =>
-    setIsIntervencionOpen(!isIntervencionOpen);
-  const toggleIsComoHaremosOpen = () =>
-    setIsComoHaremosOpen(!isComoHaremosOpen);
-  const toggleIsPorQueConmigoOpen = () =>
-    setIsPorQueConmigoOpen(!isPorQueConmigoOpen);
-
-  useEffect(() => {
-    setIsCoachingOpen(false);
-    setIsIntervencionOpen(false);
-    setIsComoHaremosOpen(false);
-    setIsPorQueConmigoOpen(false);
-  }, []);
+  const toggleDetails = (detail) => {
+    setIsOpen((prevState) => ({
+      ...prevState,
+      [detail]: !prevState[detail],
+    }));
+  };
 
   return (
     <div className="boxPageCoaching">
@@ -97,11 +91,11 @@ export default function PageCoaching() {
 
       <div className="flex-column center w-80  padding-20">
         <h1>
-          Te expicare que hacemos. Que es el coaching de intervencion
-          estrategica y por que puede ayudarte
+          Te explicaré que hacemos. Que es el coaching de intervención
+          estratégica y por que puede ayudarte
         </h1>
         <section className="boxDetailsPageCoaching gap-40">
-          <div className="textDetails bg-ligth borderCard">
+          <div className="textDetails borderCard">
             <h2 className="blackColor">¿ QUE ES EL COACHING ?</h2>
             <p>
               Es un proceso de acompañamiento personal, profesional y
@@ -112,7 +106,7 @@ export default function PageCoaching() {
             </p>
           </div>
 
-          <div className="textDetails bg-ligth  borderCard">
+          <div className="textDetails  borderCard">
             <h2 className="blackColor">¿ PARA QUIEN ES ?</h2>
             <p>
               El coaching emocional es para cualquier persona que tenga una
@@ -133,7 +127,7 @@ export default function PageCoaching() {
             </p>
           </div>
 
-          <div className="textDetails bg-ligth gap-40 borderCard">
+          <div className="textDetails gap-40 borderCard">
             <h2 className="blackColor">
               ¿ QUE ES UNA INTERVENCION ESTRATEGICA ?
             </h2>
@@ -175,7 +169,7 @@ export default function PageCoaching() {
             Llevamos mucho tiempo creyendo que cambiar es difícil , que es
             lento, que no puede hacerlo todo el mundo, que no dura… Por eso
             cuando sentimos que algo nos duele emocionalmente pensamos que nunca
-            habrá forma de desahacernos de ese malestar.¡¡ PERO ES MENTIRA !!
+            habrá forma de deshacernos de ese malestar.¡¡ PERO ES MENTIRA !!
             <b>¡¡ PERO ES MENTIRA !!</b>
           </p>
         </div>
@@ -196,129 +190,114 @@ export default function PageCoaching() {
       <h2>"Tu bienestar también mejora la vida de quienes te rodean"</h2>
 
       <section className="boxDetailsPageCoaching">
-        <details
-          className="detailsPageCoaching"
-          open={isCoachingOpen}
-          onClick={toggleIsCoachingOpen}
-        >
-          <summary className="summaryPageCoaching">
-            {<img width="40px" src={iconTime} alt="" />}{" "}
-            <h3 className="whiteColor">Sesión de Coaching: </h3>
-            {isCoachingOpen ? (
-              <img width="20px" src={flechaArriba} alt="" />
-            ) : (
-              <img width="20px" src={flechaAbajo} alt="" />
-            )}
-          </summary>
-          <div className="textDetails">
-            <p>
-              La duración de cada sesión estará en torno a 60 minutos, por
-              teléfono, video llamada o de forma presencial . La duración de los
-              procesos oscilan entre 5 y 15 sesiones, aunque esto es un aspecto
-              que dependerá exclusivamente de tí.
-            </p>
+        <div className="card">
+          <div className="card-inner">
+            <div className="card-front">
+              <img width="40px" src={iconTime} alt="" />
+              <p>SESION DE COACHING</p>
+            </div>
+            <div className="card-back">
+              <p>
+                La duración de cada sesión estará en torno a 60 minutos, por
+                teléfono, video llamada o de forma presencial . La duración de
+                los procesos oscilan entre 5 y 15 sesiones, aunque esto es un
+                aspecto que dependerá exclusivamente de tí.
+              </p>
+            </div>
           </div>
-        </details>
+        </div>
 
-        <details
-          className="detailsPageCoaching"
-          open={isIntervencionOpen}
-          onClick={toggleIsIntervencionOpen}
-        >
-          <summary className="summaryPageCoaching">
-            {<img width="40px" src={iconTime2} alt="" />}{" "}
-            <h3 className="whiteColor">
-              Sesión de Intervenciones Estratégicas:{" "}
-            </h3>
-            {isIntervencionOpen ? (
-              <img width="20px" src={flechaArriba} alt="" />
-            ) : (
-              <img width="20px" src={flechaAbajo} alt="" />
-            )}
-          </summary>
-          <p>
-            es una sola y única sesión. la duración estara en torno de 2 horas
-            aproximadamente.
-          </p>
-        </details>
+        <div className="card">
+          <div className="card-inner">
+            <div className="card-front">
+              <img width="40px" src={iconTime2} alt="" />
+              <p>SESION DE INTERVENCION ESTRATEGICA</p>
+            </div>
+            <div className="card-back">
+              <p>
+                Es una sola y única sesión. la duración estará en torno de 2
+                horas aproximadamente.
+              </p>
+            </div>
+          </div>
+        </div>
 
+        <div className="card">
+          <div className="card-inner">
+            <div className="card-front">
+              <img width="40px" src={iconRespect} alt="" />
+              <p>¿POR QUE CONMIGO?</p>
+            </div>
+            <div className="card-back">
+              <p>
+                Siempre he tenido en el corazón mi propio bienestar y el de los
+                demás, he sufrido durante mucho tiempo, he probado muchas
+                terapias con pocos resultados. Cuando encontré la intervención
+                estratégica y el coaching mi vida cambió radicalmente,
+                finalmente comencé a comprender mucho de mí mismo, experimenté
+                esta práctica tan efectiva y rápida que me permitió finalmente
+                una vida plena. Así que decidí formarme para ayudar a otras
+                personas a no sufrir innecesariamente durante tanto tiempo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div>
         <details
+          open={isOpen.howWeDoIt}
+          onToggle={() => toggleDetails("howWeDoIt")}
           className="detailsPageCoaching"
-          open={isComoHaremosOpen}
-          onClick={toggleIsComoHaremosOpen}
         >
           <summary className="summaryPageCoaching">
             {<img width="40px" src={iconCheck} alt="" />}{" "}
             <h3 className="whiteColor">¿Cómo lo haremos? </h3>
-            {isComoHaremosOpen ? (
-              <img width="20px" src={flechaArriba} alt="" />
+            {isOpen.howWeDoIt ? (
+              <img width="20px" src={FlechaArribaIcon} alt="Arriba" />
             ) : (
-              <img width="20px" src={flechaAbajo} alt="" />
-            )}
+              <img width="20px" src={FlechaAbajoIcon} alt="Abajo" />
+            )}{" "}
           </summary>
-          <p>
-            En primer lugar tendremos una sesión exploratoria gratuita y sin
-            compromiso, de 30 minutos de duración, en la que evaluaremos si esta
-            metodología es la mejor opción en tu caso. Nunca te recomendaremos
-            comenzar este proceso si no vemos con claridad que te va a aportar
-            la solución a tu problema, aunque logicamente los resultados en gran
-            medida van a depender de tu nivel de compromiso en el proceso.{" "}
-            <br />
-            <br /> Al menos 24 horas antes de nuestra sesión exploratoria
-            gratuita, habrás de rellenar un cuestionario que te enviaré por
-            correo electrónico, con preguntas pensadas estratégicamente, que nos
-            darán información importante a las dos, de cara a decidir finalmente
-            si es el método más recomendado en tu caso. <br />
-            <br /> Si decides comenzar el proceso, tendremos una sesión semanal
-            durante un tiempo que varia dependiendo de tu situacion entre una
-            sesion sola, pack de 4 sesiones o de 10 sesiones o , en las que de
-            forma absolutamente personalizada utilizaremos las técnicas,
-            dinámicas, tipo de terapia que mejor y más rápido funcionan para tu
-            caso concreto. <br />
-            <br /> Las sesiones las podemos realizar por varios canales de
-            comunicación, todos iguales de válidos para obtener los mejores
-            resultados, tan sólo necesitarás un teléfono, unos auriculares o una
-            web cam si prefieres realizarlas por video. Estudios demuestran que
-            la eficacia del tratamiento es la misma independientemente del canal
-            de comunicación utilizado (teléfono, Skype, presencial), además de
-            ser más cómodo para tí por no tener que desplazarte. <br />
-            <br /> Sólo necesitas tener el deseo de mejorar, de sentirte feliz,
-            con fuerza y energía. De aportar a los demás lo mejor de tí. Si este
-            es tu deseo reserva tu sesión exploratoria gratuita aquí
-          </p>
-        </details>
-
-        <details
-          className="detailsPageCoaching"
-          open={isPorQueConmigoOpen}
-          onClick={toggleIsPorQueConmigoOpen}
-        >
-          <summary className="summaryPageCoaching">
-            {<img width="40px" src={iconRespect} alt="" />}{" "}
-            <h3 className="whiteColor">¿Por qué conmigo? </h3>
-            {isPorQueConmigoOpen ? (
-              <img width="20px" src={flechaArriba} alt="" />
-            ) : (
-              <img width="20px" src={flechaAbajo} alt="" />
-            )}
-          </summary>
-          <div className="textDetails">
+          <div className="padding-20">
             <p>
-              Siempre he tenido en el corazón mi propio bienestar y el de los
-              demás, he sufrido durante mucho tiempo, he probado muchas terapias
-              con pocos resultados. Cuando encontré la intervención estratégica
-              y el coaching mi vida cambió radicalmente, finalmente comencé a
-              comprender mucho de mí mismo, experimenté esta práctica tan
-              efectiva y rápida que me permitió finalmente una vida plena. Así
-              que decidí formarme para ayudar a otras personas a no sufrir
-              innecesariamente durante tanto tiempo.
+              En primer lugar tendremos una sesión exploratoria gratuita y sin
+              compromiso, de 30 minutos de duración, en la que evaluaremos si
+              esta metodología es la mejor opción en tu caso. Nunca te
+              recomendaremos comenzar este proceso si no vemos con claridad que
+              te va a aportar la solución a tu problema, aunque lógicamente los
+              resultados en gran medida van a depender de tu nivel de compromiso
+              en el proceso. <br />
+              <br /> Al menos 24 horas antes de nuestra sesión exploratoria
+              gratuita, habrás de rellenar un cuestionario que te enviaré por
+              correo electrónico, con preguntas pensadas estratégicamente, que
+              nos darán información importante a las dos, de cara a decidir
+              finalmente si es el método más recomendado en tu caso. <br />
+              <br /> Si decides comenzar el proceso, tendremos una sesión
+              semanal durante un tiempo que varia dependiendo de tu situación
+              entre una sesión sola, pack de 4 sesiones o de 10 sesiones o , en
+              las que de forma absolutamente personalizada utilizaremos las
+              técnicas, dinámicas, tipo de terapia que mejor y más rápido
+              funcionan para tu caso concreto. <br />
+              <br /> Las sesiones las podemos realizar por varios canales de
+              comunicación, todos iguales de válidos para obtener los mejores
+              resultados, tan sólo necesitarás un teléfono, unos auriculares o
+              una web cam si prefieres realizarlas por video. Estudios
+              demuestran que la eficacia del tratamiento es la misma
+              independientemente del canal de comunicación utilizado (teléfono,
+              Skype, presencial), además de ser más cómodo para tí por no tener
+              que desplazarte. <br />
+              <br /> Sólo necesitas tener el deseo de mejorar, de sentirte
+              feliz, con fuerza y energía. De aportar a los demás lo mejor de
+              tí. Si este es tu deseo reserva tu sesión exploratoria gratuita
+              aquí
             </p>
           </div>
         </details>
-      </section>
+      </div>
 
       <div>
-        <h2>Descripcion del video</h2>
+        <h2>Descripción del video</h2>
         <iframe
           width="560"
           height="315"

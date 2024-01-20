@@ -55,18 +55,18 @@ export default function Header() {
           <hr className="line" />
           <Link
             onClick={closeMenu}
-            className={`myBtn ${isActive("/meditation") ? "active" : ""}`}
-            to="/meditation"
-          >
-            Meditacion
-          </Link>
-          <hr className="line" />
-          <Link
-            onClick={closeMenu}
             className={`myBtn ${isActive("/massage") ? "active" : ""}`}
             to="/massage"
           >
             Masajes
+          </Link>
+          <hr className="line" />
+          <Link
+            onClick={closeMenu}
+            className={`myBtn ${isActive("/meditation") ? "active" : ""}`}
+            to="/meditation"
+          >
+            Meditacion
           </Link>
           <hr className="line" />
           <Link

@@ -1,0 +1,44 @@
+.carrousel
+{
+	overflow: hidden;
+	height:40vw;
+	width:100%;
+}
+.carrousel ul/*ul*/
+{
+	width: 500%;   /*n pictures * 100 in %*/
+	height:100%;
+	animation: 40s slide infinite;/*animation starter*/
+	text-align:center;
+	margin-top:0px;
+	padding: 0px;
+}
+.carrousel li/*li*/
+{
+	width: 20%; /*100 / n pictures*/
+	height:100%;
+	float: left;
+	list-style: none;
+}
+.carrousel img{height:100%;}
+
+@keyframes slide /*animation 5 images*/
+{
+	0%   {margin-left:0px;}
+	12%  {margin-left:-100%;}
+	18%  {margin-left:-100%;}
+	25%  {margin-left:-200%;}
+	31%  {margin-left:-200%;}
+	37%  {margin-left:-300%;}
+	43%  {margin-left:-300%;}
+	50%  {margin-left:-400%;}
+	
+	50%  {margin-left:-400%;}
+	62%  {margin-left:-300%;}
+	68%  {margin-left:-300%;}
+	75%  {margin-left:-200%;}
+	81%  {margin-left:-200%;}
+	87%  {margin-left:-100%;}
+	93%  {margin-left:-100%;}
+	100% {margin-left:0px;}
+}

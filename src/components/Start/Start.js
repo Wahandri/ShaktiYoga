@@ -1,6 +1,8 @@
 import React from "react";
 import "./Start.css";
 import logoShakti from "../../images/shakti.png";
+import imgCoaching from "../../images/emocionalcoaching.jpg";
+import imgCoaching2 from "../../images/el-masaje-relajante-es-una-tecnica-ancestral-para-armonizar-las-emociones.jpeg";
 import Simona from "../../images/Simona.png";
 import CardDefinition from "../CardDefinition/CardDefinition";
 
@@ -48,7 +50,7 @@ export default function Start() {
       <div className="responsive">
         <CardDefinition
           url="/coaching"
-          img={Simona}
+          img={imgCoaching}
           title="Psicologia Holistica y Coaching"
           description={
             "Si tienes un bloqueo que no te deja avanzar en la vida, te cuesta conseguir tus objetivos,tienes dificultades en las relaciones,sientes que no avanzas,quieres potenciar tus propios recursos para prosperar en la vida…miedo y ansidad dominan tu vida."
@@ -58,17 +60,10 @@ export default function Start() {
           }
         />
         <CardDefinition
-          url="/coaching"
-          img={Simona}
-          title="Psicologia Holistica y Coaching"
-          description="Lorem Mi enfoque es integral, abarcando los 360 grados, lo que
-          significa cuidarte en todos los niveles: físico, mental, emocional y
-          espiritual. Esto te permitirá conectar con tu verdadera esencia,
-          descubrir tus dones y talentos, y así contribuir de manera
-          significativa al mundo, ¡¡ porque sí.. eres importante !! <br />
-          <br /> Utilizo diversas técnicas de psicología y coaching holístico,
-          masajes, meditación, yoga, reiki, EFT, y aplico mi experiencia de
-          vida personal, todo impregnado con mi amor dedicado a tu bienestar. ipsum dolor sit amet consectetur adipisicing elit. Quisquam"
+          url="/massage"
+          img={imgCoaching2}
+          title="Masajes Ánimos"
+          description="Un masaje desde el corazón, un conjunto de diferentes técnicas a medida.  un toque milagroso que sana el cuerpo y el alma."
         />
         <CardDefinition
           url="/coaching"

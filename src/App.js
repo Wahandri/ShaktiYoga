@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Start from "./components/Start/Start";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import PageCoaching from "./components/PageCoaching/PageCoaching";
 import PageMeditation from "./components/PageMeditation/PageMeditation";
 import PageMassage from "./components/PageMassage/PageMassage";
@@ -24,6 +25,7 @@ function App() {
           <Route path="/contact" element={<PageContact />} />
           <Route path="/" element={<Start />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

@@ -9,10 +9,22 @@ export default function CardDefinition({
   description2,
   url,
 }) {
+  const backgroundStyle = {
+    backgroundImage: `url(${img})`,
+    backgroundSize: "auto 100%",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  };
+
   return (
     <div className="bodyCardDefinition">
       <div className="cardDescription">
-        <img className="imgCardDefinition borderCard" src={img} alt="" />
+        <img
+          className="imgCardDefinition borderCard"
+          src={img}
+          alt={title}
+          style={backgroundStyle}
+        />
         <div className="borderCard padding-20">
           <h2>{title}</h2>
           <p>{description}</p>
