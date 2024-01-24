@@ -27,8 +27,8 @@ export default function CardDefinition({
         />
         <div className="borderCard padding-20">
           <h2>{title}</h2>
-          <p>{description}</p>
-          <p>{description2}</p>
+          {description}
+          {description2}
           <Link to={url} className="myBtn btnCardDefinition">
             Ver mas
           </Link>

@@ -5,6 +5,7 @@ import imgCoaching from "../../images/emocionalcoaching.jpg";
 import imgCoaching2 from "../../images/el-masaje-relajante-es-una-tecnica-ancestral-para-armonizar-las-emociones.jpeg";
 import Simona from "../../images/Simona.png";
 import CardDefinition from "../CardDefinition/CardDefinition";
+import fruitADN from "../../images/fruitADN.jpg";
 
 export default function Start() {
   return (
@@ -51,32 +52,37 @@ export default function Start() {
         <CardDefinition
           url="/coaching"
           img={imgCoaching}
-          title="Psicologia Holistica y Coaching"
+          title="PSCOLOGIA HOLISTICA Y COACHING"
           description={
-            "Si tienes un bloqueo que no te deja avanzar en la vida, te cuesta conseguir tus objetivos,tienes dificultades en las relaciones,sientes que no avanzas,quieres potenciar tus propios recursos para prosperar en la vida…miedo y ansidad dominan tu vida."
-          }
-          description2={
-            "La terapia breve estratégica puede ayudarte a vivir la vida que te mereces."
+            <>
+              <p>Si tienes un bloqueo que no te deja avanzar en la vida, te cuesta conseguir tus objetivos,tienes dificultades en las relaciones,sientes que no avanzas,quieres potenciar tus propios recursos para prosperar en la vida…miedo y ansidad dominan tu vida.</p>
+              <p>La terapia breve estratégica puede ayudarte a vivir la vida que te mereces.</p>
+            </>
           }
         />
         <CardDefinition
           url="/massage"
           img={imgCoaching2}
           title="Masajes Ánimos"
-          description="Un masaje desde el corazón, un conjunto de diferentes técnicas a medida.  un toque milagroso que sana el cuerpo y el alma."
+          description={
+            <p>Un masaje desde el corazón, un conjunto de diferentes técnicas a medida.  un toque milagroso que sana el cuerpo y el alma.</p>
+          }
         />
         <CardDefinition
           url="/coaching"
-          img={Simona}
-          title="Psicologia Holistica y Coaching"
-          description="Lorem Mi enfoque es integral, abarcando los 360 grados, lo que
-          significa cuidarte en todos los niveles: físico, mental, emocional y
-          espiritual. Esto te permitirá conectar con tu verdadera esencia,
-          descubrir tus dones y talentos, y así contribuir de manera
-          significativa al mundo, ¡¡ porque sí.. eres importante !! <br />
-          <br /> Utilizo diversas técnicas de psicología y coaching holístico,
-          masajes, meditación, yoga, reiki, EFT, y aplico mi experiencia de
-          vida personal, todo impregnado con mi amor dedicado a tu bienestar. ipsum dolor sit amet consectetur adipisicing elit. Quisquam"
+          img={fruitADN}
+          title="NUTRACEUTICA"
+          description={
+            <>
+              <p>CUIDARSE POR DENTRO Y POR FUERA a través de Asesoramiento de Bienestar Psico-fisico NATURAL .. Somos una tribu golosa.. "PORQUE LA VIDA AY QUE GOZARLA" hablaremos de :</p>
+              <ul>
+                <li><p>Comida sana y buena</p></li>
+                <li><p>Suplementos medicina/natural</p></li>
+                <li><p>La importancia de Eliminar toxinas por la salud física y mental</p></li>
+                <li><p>Cosmética  Natural</p></li>
+              </ul>
+            </>
+          }
         />
       </div>
     </div>
