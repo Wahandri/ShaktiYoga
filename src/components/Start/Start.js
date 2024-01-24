@@ -69,7 +69,7 @@ export default function Start() {
           }
         />
         <CardDefinition
-          url="/coaching"
+          url="/nutrition"
           img={fruitADN}
           title="NUTRACEUTICA"
           description={

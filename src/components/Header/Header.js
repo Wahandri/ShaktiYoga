@@ -42,7 +42,7 @@ export default function Header() {
             className={`myBtn ${isActive("/") ? "active" : ""}`}
             to="/"
           >
-            Inicio
+            INICIO
           </Link>
           <hr className="line" />
           <Link
@@ -50,7 +50,7 @@ export default function Header() {
             className={`myBtn ${isActive("/coaching") ? "active" : ""}`}
             to="/coaching"
           >
-            Coaching
+            COACHING
           </Link>
           <hr className="line" />
           <Link
@@ -58,15 +58,7 @@ export default function Header() {
             className={`myBtn ${isActive("/massage") ? "active" : ""}`}
             to="/massage"
           >
-            Masajes
-          </Link>
-          <hr className="line" />
-          <Link
-            onClick={closeMenu}
-            className={`myBtn ${isActive("/meditation") ? "active" : ""}`}
-            to="/meditation"
-          >
-            Meditacion
+            MASAJES
           </Link>
           <hr className="line" />
           <Link
@@ -74,15 +66,25 @@ export default function Header() {
             className={`myBtn ${isActive("/nutrition") ? "active" : ""}`}
             to="/nutrition"
           >
-            Nutricion
+            NUTRACEUTICA
           </Link>
+          <hr className="line" />
+          <Link
+            onClick={closeMenu}
+            className={`myBtn ${isActive("/meditation") ? "active" : ""}`}
+            to="/meditation"
+          >
+            MEDITACION
+          </Link>
+          
+          
           <hr className="line" />
           <Link
             onClick={closeMenu}
             className={`myBtn ${isActive("/yoga") ? "active" : ""}`}
             to="/yoga"
           >
-            Yoga
+            YOGA
           </Link>
           <hr className="line" />
           <Link
@@ -90,7 +92,7 @@ export default function Header() {
             className={`myBtn ${isActive("/contact") ? "active" : ""}`}
             to="/contact"
           >
-            Contáctanos
+            CONTACTANOS
           </Link>
           <hr className="line" />
         </ul>

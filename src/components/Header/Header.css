@@ -4,7 +4,7 @@
 }
 
 .empyHeader {
-    height: 80px;
+    height: 60px;
 }
 
 .boxHeader {
@@ -16,7 +16,7 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    height: 80px;
+    height: 60px;
     background-color: #fff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
@@ -42,13 +42,11 @@
     gap: 10px;
     margin-top: 30px;
     padding-right: 20px;
-    /* transition: height 0.5s ease, transform 0.5s ease-out; */
     height: 120px;
     overflow: hidden;
     align-items: center;
 
 }
-
 
 .menuOpen .navBar {
     height: 685px;
@@ -58,36 +56,7 @@
 .menuButton {
     display: none;
 }
-
-
-
-/* .linkLi {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #8d50ff7d;
-    width: 100%;
-    color: black;
-    text-decoration: none;
-    padding: 4px;
-    border-radius: 5px;
-    font-size: 25px;
-    font-family: 'TextFont', sans-serif;
-    height: 50px;
-    margin-left: 10px;
-} .linkLi:hover {
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, #8d50ffcb 1%, rgba(148,187,233,0) 60%);
-    transition: 0.5s;
-    height: 90px;
-} 
-
-.linkLi.active {
-    background-color: #8d50ff;
-    color: #fff; 
-} */
     
-
 .socialNetworkIcons {
     display: flex;
     justify-content: space-between;
@@ -126,11 +95,6 @@
     .boxHeader {
         width: 100%;
     }
-
-    /* .socialNetworkIcons {
-        width: 150px;
-        align-items: end;
-    } */
 
     .linkLi {
         font-size: 30px;

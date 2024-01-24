@@ -11,6 +11,7 @@ import imgS1 from "../../images/imgS1.jpeg";
 import imgS2 from "../../images/imgS2.jpeg";
 import imgS3 from "../../images/imgS3.jpeg";
 import imgS4 from "../../images/imgS4.jpeg";
+import imgHeader from "../../images/coachingHeader2.png";
 
 export default function PageCoaching() {
   const [isOpen, setIsOpen] = useState({
@@ -30,9 +31,10 @@ export default function PageCoaching() {
   return (
     <div className="boxPageCoaching">
       <div className="headerPageCoaching borderCard">
-        <div className="h1HeaderPageCoaching bg-ligth borderCard">
+        <div className="h1HeaderPageCoaching  borderCard">
           <h1>“La curiosidad y el autoconocimiento te llevara a tu destino”</h1>
         </div>
+        <img src={imgHeader} alt=""/>
       </div>
 
       <h1>Alguna de estas frases te resuenan??</h1>
