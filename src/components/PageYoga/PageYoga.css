@@ -87,3 +87,28 @@
     width: 900px;
     margin: 20px;
 }
+
+.sectionDescriptionDario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    
+}
+
+.imgDario {
+    width: 600px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.darioDescription {
+    width: 1000px;
+    margin-bottom: 60px;
+}
+
+.skill {
+    width: 40px;
+    margin: 5px;
+}

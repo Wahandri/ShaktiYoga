@@ -4,6 +4,11 @@ import imgYoga1 from "../../images/relax.jpg";
 import meditation from "../../images/sectionMeditation.jpeg";
 import LogoDario from "../../images/LogoDario.png";
 import mujeresYoga from "../../images/mujeresYoga.jpeg";
+import imgDario from "../../images/imgDario.jpeg";
+import españa from "../../images/espana.png";
+import reinoUnido from "../../images/reino-unido.png";
+import italia from "../../images/italia.png";
+import alemania from "../../images/alemania.png";
 
 export default function PageYoga() {
   return (
@@ -13,15 +18,17 @@ export default function PageYoga() {
           <div className="flex-column size50 backgroundDark">
             <h1 className="whiteColor">"El camino del Yoga"</h1>
             <p>
-              Te damos la bienvenida al mundo del yoga. Nuestro yoga tiene como
-              objetivo hacer que la práctica del yoga sea accesible y divertida.
+              Te damos la bienvenida al mundo del yoga. <br/> 
+              Nuestro yoga tiene como objetivo hacer que la práctica del yoga sea accesible y divertida.<br/> <br/> 
               Creemos que practicar yoga a diario puede tener enormes beneficios
               para la salud, ayudando a mejorar la calidad de nuestra vida
             </p>
           </div>
+
           <div className="boxLogoDario">
             <img className="logoDario" src={LogoDario} alt="" />
           </div>
+
           <div className="size50">
             <p> </p>
           </div>
@@ -85,6 +92,7 @@ export default function PageYoga() {
             </p>
           </div>
         </div>
+
         <div className="sectionPageYoga borderCard">
           <img className="imgSectionYoga" src={meditation} alt="" />
           <div className="flex-column descriptionSectionYoga">
@@ -111,6 +119,7 @@ export default function PageYoga() {
             </p>
           </div>
         </div>
+
         <div className="sectionPageYoga borderCard">
           <img className="imgSectionYoga" src={mujeresYoga} alt="" />
           <div className="flex-column descriptionSectionYoga">
@@ -138,6 +147,31 @@ export default function PageYoga() {
               </li>
             </ul>
           </div>
+        </div>
+      </section>
+
+      <section className="sectionDescriptionDario borderCard">
+        <div >
+          <img className="imgDario borderCard" src={imgDario} alt="" />
+        </div>
+        <div className=" padding-10">
+          <img className="skill" src={españa} alt="" />
+          <img className="skill" src={reinoUnido} alt="" />
+          <img className="skill" src={italia} alt="" />
+          <img className="skill" src={alemania} alt="" />
+        </div>
+
+        <div className="darioDescription">
+          <p>
+            Mi nombre es Dario, soy italiano-español, siempre me ha atraído la espiritualidad, nuestro mundo interior y desde adolescente leí libros, hice retiros, cursos de formación, practiqué yoga y sobre todo medité. <br />
+            Sentí una fuerte necesidad de compartir mis experiencias y descubrimientos para ayudar a otros.<br /><br />
+            Cuando conocí a Simona, mi mujer, estaba buscando un curso para ser profesora de yoga.<br />
+            Nunca había pensado en dar clases, pero empecé a estudiar con ella y al final ¡me apunté también!  fue la explosión de una gran pasión, una verdadera obsesión, el medio perfecto para transmitir todo lo que ya había aprendido.<br />
+            {/* "che già avevo appreso." */}
+            Hoy soy Maestro de meditación.<br />
+            Zazen, vipassana, meditaciones activas y estáticas, maestro con gran pasión por Raja y Hata Yoga.<br />
+            Con gran humildad, amor y alegría acompaño  las personas a tener buenas sensaciones con uno mismo , al conocimiento de esta disciplina milagrosa apta para todos, de la que me enamoré y que espero hacer enamorar mis alumnos. Siempre ay un antes y un despues
+          </p>
         </div>
       </section>
     </div>
