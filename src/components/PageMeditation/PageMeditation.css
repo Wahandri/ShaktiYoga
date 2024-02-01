@@ -1,0 +1,92 @@
+.boxPageMeditation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 100px;
+}
+
+.headerMeditation{
+    background-image: url("../../images/headerMeditation.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.divHeaderMeditation {
+    width: 500px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border-radius:  30px;
+    padding: 15px;
+    background-color: #ac793a2a;
+    margin: 50px;
+}
+
+.sectionCardsMeditation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px;
+    color: #fff;
+    width: 80%;
+}
+
+.cardMeditation {
+    background-color: #9464F4;
+    width: 300px;
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: 20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+} .cardMeditation:hover {
+    
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 10px 10px 30px #bebebe,
+                -10px -10px 30px #ffffff;
+}
+
+.section2Meditation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 50px;
+}
+
+.widthCard4 {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxCardsMeditation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+/* CSS cards meditation */
+
+/* .bgc-1 {
+    background-image: url("../../images/coachingDiference.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/*  */

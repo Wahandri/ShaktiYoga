@@ -6,6 +6,7 @@ import imgCoaching2 from "../../images/el-masaje-relajante-es-una-tecnica-ancest
 import Simona from "../../images/Simona.png";
 import CardDefinition from "../CardDefinition/CardDefinition";
 import fruitADN from "../../images/fruitADN.jpg";
+import danceMeditation from "../../images/danceMeditation.jpeg";
 
 export default function Start() {
   return (
@@ -82,6 +83,15 @@ export default function Start() {
                 <li><p>Cosmética  Natural</p></li>
               </ul>
             </>
+          }
+        />
+        <CardDefinition
+          url="/meditation"
+          img={danceMeditation}
+          title="DANCE-MEDITACION"
+          description={
+            <p>Meditaciones activas , danza de chakras, danza libre... son técnicas de meditación que se basan en la técnica del movimiento.<br/><br/>
+            Para el hombre moderno, es difícil meditar utilizando técnicas de meditación tradicionales (silencio, piernas cruzadas, concentración).  Sufre continuamente diversas distracciones y estímulos del exterior.  Por ello, las meditaciones activas y el baile son una forma  eficaz de calmar la mente y de crear ese espacio de silencio y conciencia necesario para la meditación.</p>
           }
         />
       </div>
