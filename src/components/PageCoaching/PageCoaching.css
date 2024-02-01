@@ -10,17 +10,25 @@
 .headerPageCoaching {
     margin-top: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     border-radius: 15px;
-    background-color: #5425b1;
+    /* background-color: #5425b1; */
     height: 89vh;
     width: 100%;
+    background-image: url("../../images/zen-2907290_1920.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 
 .h1HeaderPageCoaching {
     padding: 30px;
-    
+    border-radius: 30px;
+    width: 600px;
+    margin: 60px;
 }
 
 .boxImgS {

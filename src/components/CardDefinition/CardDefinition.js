@@ -17,15 +17,15 @@ export default function CardDefinition({
   };
 
   return (
-    <div className="bodyCardDefinition">
-      <div className="cardDescription">
+    <div className="boxCardDefinition">
+      <div className="cardContainer">
         <img
           className="imgCardDefinition borderCard"
           src={img}
           alt={title}
           style={backgroundStyle}
         />
-        <div className="borderCard padding-20">
+        <div className="borderCard cardDescription">
           <h2>{title}</h2>
           {description}
           {description2}

@@ -154,14 +154,16 @@ export default function PageYoga() {
         <div >
           <img className="imgDario borderCard" src={imgDario} alt="" />
         </div>
+        
         <div className=" padding-10">
           <img className="skill" src={españa} alt="" />
           <img className="skill" src={reinoUnido} alt="" />
           <img className="skill" src={italia} alt="" />
           <img className="skill" src={alemania} alt="" />
         </div>
-
+        
         <div className="darioDescription">
+          <h1>Sobre mi</h1>
           <p>
             Mi nombre es Dario, soy italiano-español, siempre me ha atraído la espiritualidad, nuestro mundo interior y desde adolescente leí libros, hice retiros, cursos de formación, practiqué yoga y sobre todo medité. <br />
             Sentí una fuerte necesidad de compartir mis experiencias y descubrimientos para ayudar a otros.<br /><br />

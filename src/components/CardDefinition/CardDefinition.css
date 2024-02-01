@@ -1,4 +1,4 @@
-.bodyCardDefinition {
+.boxCardDefinition {
     display: flex;
     flex-direction: column;
     margin: 40px;
@@ -23,12 +23,17 @@
 
 }
 
-
-
 .cardDescription {
-    display: flex;
+    padding: 15px;
+    width: 50%;
+}
+
+.cardContainer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
     gap: 60px;
-    width: 100%;
+    width: 1200px;
 }
 
 .btnCardDefinition {
@@ -46,7 +51,7 @@
 
 @media (max-width: 1350px) {
 
-    .cardDescription {
+    .cardContainer {
         flex-direction: column;
         justify-content: center;
         align-items: center;

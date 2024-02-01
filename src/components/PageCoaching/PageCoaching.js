@@ -31,64 +31,66 @@ export default function PageCoaching() {
   return (
     <div className="boxPageCoaching">
       <div className="headerPageCoaching borderCard">
-        <div className="h1HeaderPageCoaching  borderCard">
-          <h1>“La curiosidad y el autoconocimiento te llevara a tu destino”</h1>
+        <div className="h1HeaderPageCoaching boxShadow">
+          <h1 className="whiteColor">“La curiosidad y el autoconocimiento te llevara a tu destino”</h1>
         </div>
-        <img src={imgHeader} alt=""/>
       </div>
-
-      <h1>Alguna de estas frases te resuenan??</h1>
-      <div className="flex pinkColor center w-60 borderCard">
-        <ul className="ulHeaderPageCoaching">
-          <li>
-            <h3 className="">Me siento culpable</h3>
-          </li>
-          <li>
-            <h3 className="">Soy muy vergonzosa</h3>
-          </li>
-          <li>
-            <h3 className="">Tengo miedo al rechazo</h3>
-          </li>
-          <li>
-            <h3 className="">No gestiono mi tristeza</h3>
-          </li>
-          <li>
-            <h3 className="">Me cuesta poner límites</h3>
-          </li>
-        </ul>
-        <ul className="ulHeaderPageCoaching">
-          <li>
-            <h3 className="">
-              Quiero tomar la decisión de cambiar trabajo pero tengo miedo
-            </h3>
-          </li>
-          <li>
-            <h3 className="">He sufrido abusos</h3>
-          </li>
-          <li>
-            <h3 className="">Soy muy perfeccionista</h3>
-          </li>
-          <li>
-            <h3 className="">Soy muy indecisa</h3>
-          </li>
-        </ul>
-        <ul className="ulHeaderPageCoaching">
-          <li>
-            <h3 className="">Relaciones complicadas de pareja</h3>
-          </li>
-          <li>
-            <h3 className="">He perdido la ilusión y quiero recuperarla</h3>
-          </li>
-          <li>
-            <h3 className="">Me asusto fácil y me da mucha ansiedad</h3>
-          </li>
-          <li>
-            <h3 className="">Estoy decepcionada</h3>
-          </li>
-          <li>
-            <h3 className="">Me estoy separando</h3>
-          </li>
-        </ul>
+      
+      <div className="flex-column pinkColor center w-60 borderCard">
+        <h1>Alguna de estas frases te resuenan??</h1>
+        <div className="flex">
+          <ul className="ulHeaderPageCoaching">
+            <li>
+              <h3 className="">Me siento culpable</h3>
+            </li>
+            <li>
+              <h3 className="">Soy muy vergonzosa</h3>
+            </li>
+            <li>
+              <h3 className="">Tengo miedo al rechazo</h3>
+            </li>
+            <li>
+              <h3 className="">No gestiono mi tristeza</h3>
+            </li>
+            <li>
+              <h3 className="">Me cuesta poner límites</h3>
+            </li>
+          </ul>
+          <ul className="ulHeaderPageCoaching">
+            <li>
+              <h3 className="">
+                Quiero tomar la decisión de cambiar trabajo pero tengo miedo
+              </h3>
+            </li>
+            <li>
+              <h3 className="">He sufrido abusos</h3>
+            </li>
+            <li>
+              <h3 className="">Soy muy perfeccionista</h3>
+            </li>
+            <li>
+              <h3 className="">Soy muy indecisa</h3>
+            </li>
+          </ul>
+        
+          <ul className="ulHeaderPageCoaching">
+            <li>
+              <h3 className="">Relaciones complicadas de pareja</h3>
+            </li>
+            <li>
+              <h3 className="">He perdido la ilusión y quiero recuperarla</h3>
+            </li>
+            <li>
+              <h3 className="">Me asusto fácil y me da mucha ansiedad</h3>
+            </li>
+            <li>
+              <h3 className="">Estoy decepcionada</h3>
+            </li>
+            <li>
+              <h3 className="">Me estoy separando</h3>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div className="flex-column center w-80  padding-20">

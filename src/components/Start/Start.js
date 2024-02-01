@@ -7,6 +7,7 @@ import Simona from "../../images/Simona.png";
 import CardDefinition from "../CardDefinition/CardDefinition";
 import fruitADN from "../../images/fruitADN.jpg";
 import danceMeditation from "../../images/danceMeditation.jpeg";
+import iconDario from "../../images/LogoDario2.png"
 
 export default function Start() {
   return (
@@ -64,9 +65,9 @@ export default function Start() {
         <CardDefinition
           url="/massage"
           img={imgCoaching2}
-          title="Masajes Ánimos"
+          title="MASAJES ANIMOS"
           description={
-            <p>Un masaje desde el corazón, un conjunto de diferentes técnicas a medida.  un toque milagroso que sana el cuerpo y el alma.</p>
+            <p>Es un tratamiento que trabaja los meridianos energéticos aunando técnicas de masaje y terapias naturales y permite al cuerpo emprender un camino de curación natural y no forzado.</p>
           }
         />
         <CardDefinition
@@ -92,6 +93,16 @@ export default function Start() {
           description={
             <p>Meditaciones activas , danza de chakras, danza libre... son técnicas de meditación que se basan en la técnica del movimiento.<br/><br/>
             Para el hombre moderno, es difícil meditar utilizando técnicas de meditación tradicionales (silencio, piernas cruzadas, concentración).  Sufre continuamente diversas distracciones y estímulos del exterior.  Por ello, las meditaciones activas y el baile son una forma  eficaz de calmar la mente y de crear ese espacio de silencio y conciencia necesario para la meditación.</p>
+          }
+        />
+        <CardDefinition
+          url="/meditation"
+          img={iconDario}
+          title="SHAKTI YOGA"
+          description={
+            <p>
+              Descubrimos la práctica del yoga a través de asanas, posturas físicas que son sólo la punta del iceberg de una antigua tradición que data de hace 5000 años diseñada para integrar mente, cuerpo y alma.
+            </p>
           }
         />
       </div>
