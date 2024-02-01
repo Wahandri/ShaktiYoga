@@ -67,7 +67,7 @@ export default function Start() {
           img={imgCoaching2}
           title="MASAJES ANIMOS"
           description={
-            <p>Es un tratamiento que trabaja los meridianos energéticos aunando técnicas de masaje y terapias naturales y permite al cuerpo emprender un camino de curación natural y no forzado.</p>
+            <p>Un masaje desde el corazón, un conjunto de diferentes técnicas a medida. Un toque milagroso que sana el cuerpo y el alma.</p>
           }
         />
         <CardDefinition
