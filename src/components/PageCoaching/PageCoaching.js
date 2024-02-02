@@ -11,7 +11,7 @@ import imgS1 from "../../images/imgS1.jpeg";
 import imgS2 from "../../images/imgS2.jpeg";
 import imgS3 from "../../images/imgS3.jpeg";
 import imgS4 from "../../images/imgS4.jpeg";
-import imgHeader from "../../images/coachingHeader2.png";
+// import imgHeader from "../../images/coachingHeader2.png";
 
 export default function PageCoaching() {
   const [isOpen, setIsOpen] = useState({
