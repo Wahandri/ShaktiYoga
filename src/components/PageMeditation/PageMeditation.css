@@ -79,15 +79,23 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
+    padding: 40px;
 }
 
-/* CSS cards meditation */
+.lastCardMeditation {
+    display: flex;
+    gap: 70px;
+}
 
-/* .bgc-1 {
-    background-image: url("../../images/coachingDiference.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+@media (max-width: 1220px) {
+    .lastCardMeditation {
+        flex-direction: column;
+    }
+}
 
-/*  */
+@media (max-width: 600px) {
+    .widthCard4 {
+        width: 95%;
+        height:max-content;
+    }
+}

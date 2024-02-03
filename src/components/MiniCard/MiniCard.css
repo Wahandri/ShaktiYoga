@@ -1,8 +1,19 @@
 .widthMiniCard {
     width: 350px;
-    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    padding: 20px;
+}
+
+.pMiniCard {
+    text-align: center;
+
+}
+
+@media (max-width: 850px) {
+    .widthMiniCard {
+        width: 85%;
+    }
 }

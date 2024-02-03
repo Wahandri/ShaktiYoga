@@ -67,6 +67,10 @@
   margin: 40px;
 }
 
+.mt-40 {
+  margin-top: 40px;
+}
+
 /* --------------------CARD-----------------------*/
 
 /* reversible card */
@@ -356,3 +360,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #9464F4;
 }
 /* ----------- */
+
+@media (max-width: 610) {
+  h1 {
+    font-size: 30px;
+  }
+}

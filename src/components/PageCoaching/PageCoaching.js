@@ -11,7 +11,7 @@ import imgS1 from "../../images/imgS1.jpeg";
 import imgS2 from "../../images/imgS2.jpeg";
 import imgS3 from "../../images/imgS3.jpeg";
 import imgS4 from "../../images/imgS4.jpeg";
-// import imgHeader from "../../images/coachingHeader2.png";
+import imgHeader from "../../images/coachingHeader2.png";
 
 export default function PageCoaching() {
   const [isOpen, setIsOpen] = useState({
@@ -38,69 +38,66 @@ export default function PageCoaching() {
       
       <div className="flex-column pinkColor center w-60 borderCard">
         <h1>Alguna de estas frases te resuenan??</h1>
-        <div className="flex">
+        <div className="flex ">
           <ul className="ulHeaderPageCoaching">
             <li>
-              <h3 className="">Me siento culpable</h3>
+              <h3 className="whiteColor">Me siento culpable</h3>
             </li>
             <li>
-              <h3 className="">Soy muy vergonzosa</h3>
+              <h3 className="whiteColor">Soy muy vergonzosa</h3>
             </li>
             <li>
-              <h3 className="">Tengo miedo al rechazo</h3>
+              <h3 className="whiteColor">Tengo miedo al rechazo</h3>
             </li>
             <li>
-              <h3 className="">No gestiono mi tristeza</h3>
+              <h3 className="whiteColor">No gestiono mi tristeza</h3>
             </li>
             <li>
-              <h3 className="">Me cuesta poner límites</h3>
+              <h3 className="whiteColor">Me cuesta poner límites</h3>
             </li>
-          </ul>
-          <ul className="ulHeaderPageCoaching">
+          
             <li>
-              <h3 className="">
+              <h3 className="whiteColor">
                 Quiero tomar la decisión de cambiar trabajo pero tengo miedo
               </h3>
             </li>
             <li>
-              <h3 className="">He sufrido abusos</h3>
+              <h3 className="whiteColor">He sufrido abusos</h3>
             </li>
             <li>
-              <h3 className="">Soy muy perfeccionista</h3>
+              <h3 className="whiteColor">Soy muy perfeccionista</h3>
             </li>
             <li>
-              <h3 className="">Soy muy indecisa</h3>
+              <h3 className="whiteColor">Soy muy indecisa</h3>
             </li>
-          </ul>
-        
-          <ul className="ulHeaderPageCoaching">
+          
             <li>
-              <h3 className="">Relaciones complicadas de pareja</h3>
+              <h3 className="whiteColor">Relaciones complicadas de pareja</h3>
             </li>
             <li>
-              <h3 className="">He perdido la ilusión y quiero recuperarla</h3>
+              <h3 className="whiteColor">He perdido la ilusión y quiero recuperarla</h3>
             </li>
             <li>
-              <h3 className="">Me asusto fácil y me da mucha ansiedad</h3>
+              <h3 className="whiteColor">Me asusto fácil y me da mucha ansiedad</h3>
             </li>
             <li>
-              <h3 className="">Estoy decepcionada</h3>
+              <h3 className="whiteColor">Estoy decepcionada</h3>
             </li>
             <li>
-              <h3 className="">Me estoy separando</h3>
+              <h3 className="whiteColor">Me estoy separando</h3>
             </li>
           </ul>
         </div>
       </div>
 
-      <div className="flex-column center w-80  padding-20">
-        <h1>
-          Te explicaré que hacemos. Que es el coaching de intervención
+      <div className="flex-column center gap-40  w-80  padding-40">
+        <h1 className="text-center">
+          Te explicaré que hacemos, que es el coaching de intervención
           estratégica y por que puede ayudarte
         </h1>
         <section className="boxDetailsPageCoaching gap-40">
-          <div className="textDetails borderCard">
-            <h2 className="blackColor">¿ QUE ES EL COACHING ?</h2>
+          <div className="textDetails flex-column center borderCard">
+            <h2 className="blackColor">¿QUE ES EL COACHING?</h2>
             <p>
               Es un proceso de acompañamiento personal, profesional y
               confidencial en el que se utiliza lo mejor de diferentes
@@ -110,8 +107,8 @@ export default function PageCoaching() {
             </p>
           </div>
 
-          <div className="textDetails  borderCard">
-            <h2 className="blackColor">¿ PARA QUIEN ES ?</h2>
+          <div className="textDetails flex-column center padding-40  borderCard">
+            <h2 className="blackColor">¿PARA QUIEN ES?</h2>
             <p>
               El coaching emocional es para cualquier persona que tenga una
               necesidad de cambio, que siente insatisfacción, frustración, baja
@@ -131,9 +128,9 @@ export default function PageCoaching() {
             </p>
           </div>
 
-          <div className="textDetails gap-40 borderCard">
+          <div className="textDetails flex-column center padding-40 borderCard">
             <h2 className="blackColor">
-              ¿ QUE ES UNA INTERVENCION ESTRATEGICA ?
+              ¿QUE ES UNA INTERVENCION ESTRATEGICA?
             </h2>
             <p>La Intervención Estratégica tiene 3 funciones básicas:</p>{" "}
             <ul className="">
@@ -150,7 +147,7 @@ export default function PageCoaching() {
           </div>
         </section>
 
-        <div className="w-80 flex-column center">
+        <div className="w-80 mt-40 flex-column center">
           <p>
             <b>Y si hasta hoy te has preguntado:</b> ¿Por qué la terapia
             tradicional tarda tantas sesiones en dar resultados? ¿Por qué yo no
@@ -181,13 +178,13 @@ export default function PageCoaching() {
 
       <div className="flex">
         <div className="flex-column">
-          <img className="imgS" src={imgS1} alt="" />
-          <img className="imgS" src={imgS2} alt="" />
+          <img className="imgS1 " src={imgS1} alt="" />
+          <img className="imgS2 " src={imgS2} alt="" />
         </div>
         <img className="imgDiferences" src={diferences} alt="" />
         <div className="flex-column">
-          <img className="imgS" src={imgS3} alt="" />
-          <img className="imgS" src={imgS4} alt="" />
+          <img className="imgS3 " src={imgS3} alt="" />
+          <img className="imgS4 " src={imgS4} alt="" />
         </div>
       </div>
 
@@ -248,7 +245,7 @@ export default function PageCoaching() {
         </div>
       </section>
 
-      <div>
+      <div className="w-80">
         <details
           open={isOpen.howWeDoIt}
           onToggle={() => toggleDetails("howWeDoIt")}

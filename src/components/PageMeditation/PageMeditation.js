@@ -80,14 +80,14 @@ export default function PageMeditation() {
     </section>
 
     <section className="section2Meditation">
-      <div>
+      <div className="borderCard bg-purple whiteColor padding-20">
         <p>
           Estas meditaciones activas están diseñadas para ayudar a las personas a liberar tensiones físicas y mentales, a desbloquear emociones reprimidas, y a alcanzar estados de mayor conciencia y claridad mental. Cada una tiene sus propias técnicas y objetivos específicos, pero en general, todas buscan un equilibrio entre la actividad física, la conciencia respiratoria y la quietud mental. <br/><br/>
           Es importante practicar estas técnicas con la debida orientación y comprensión de sus principios para obtener los máximos beneficios.
         </p>
       </div>
 
-      <div className="flex gap-40">
+      <div className="lastCardMeditation">
         <div className="widthCard4 boxShadow br-15 padding-10">
           <p>
             La danza aporta grandes beneficios no solo en los aspectos más directos a nivel físico o psicológico, sino que además actúa sobre planos más sutiles, equilibrando y aportando un profundo bienestar interior.<br/>

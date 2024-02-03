@@ -3,9 +3,11 @@ import "./MiniCard.css";
 
 export default function MiniCard({ title, description }) {
   return (
-    <div className="borderCard widthMiniCard padding-20">
+    <div className="borderCard widthMiniCard">
       <h1>{title}</h1>
-      <p>{description}</p>
+      <div className="pMiniCard">
+        <p >{description}</p>
+      </div>
     </div>
   );
 }

@@ -37,23 +37,23 @@ export default function PageNutrition() {
   return <div className="boxNutrition">
     <header className="headerNutrition">
       <div className="h1Header">
-        <h1 className="h1-60 whiteColor">SALUD Y FELICIDAD</h1>
+        <h1 className="h1HeaderNutrition whiteColor">SALUD Y FELICIDAD</h1>
       </div>
     </header>
 
     <section className="sectionNutrition">
       <div className="section1">
         <img className="img1" src={img1} alt=""/>
-        <div className="boxShadow br-30">
+        <div className="boxShadow description1 br-30">
           <p>¿Porque los nutracéuticos se han vuelto fundamentales hoy en mi trabajo?</p>
           <p>Los nutracéuticos son una ciencia médica moderna que está creciendo rápidamente y es extremadamente prometedora para muchas patologías, incluida la depresión.</p>
         </div>
       </div>
     </section>
 
-    <section className="w-100 flex center">
-      <div className="boxShadow whiteColor br-30 bg-purple flex-column center w-60">
-        <h1 className="whiteColor">¿EMFERMEDAD o SALUD? Que elijes?</h1>
+    <section className="section2 flex center">
+      <div className="boxShadow whiteColor br-30 bg-purple flex-column center">
+        <h1 className="whiteColor">¿EMFERMEDAD o SALUD? <br/>¿Que elijes?</h1>
         <ul>
           <li className="liNone"><p>Hoy, a diferencia de cuando empecé, los casos de problemas digestivos, intestinos inflamados, reacciones autoinmunes, intolerancias, etc., han aumentado exponencialmente.</p></li>
           <li className="liNone"><p>Todo esto no puede tomarse a la ligera y centra la atención en lo que sucede no sólo a nuestro alrededor sino también dentro de nosotros.  Todo esto tiene que ver con la calidad de los alimentos que comemos, cómo nos nutrimos a diario y el efecto que tienen los alimentos en nuestro organismo.</p></li>
@@ -64,7 +64,7 @@ export default function PageNutrition() {
       </div>
     </section>
 
-    <section className="flex btw">
+    <section className="">
       <div className="boxDepresion">
         <img className="imgDepresion" src={depresion} alt=""/>
         <p className="pDepresion ">
