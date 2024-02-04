@@ -8,21 +8,16 @@
 }
 
 .headerPageCoaching {
-    margin-top: 40px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border-radius: 15px;
-    height: 89vh;
+    height: 90vh;
     width: 100%;
     background-image: url("../../images/zen-2907290_1920.jpg");
     background-size: cover;
     background-position:right;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-
-
 }
 
 .h1HeaderPageCoaching {
@@ -39,12 +34,30 @@
 
 }
 
+.boxDiferences {
+    display: flex;
+}
+
+.miniBoxDiferences {
+    display: flex;
+    flex-direction: column;
+}
+
 .imgHeaderPageCoaching {
     border-radius: 8px;
     margin: 40px;
     width: 600px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); 
 }
+
+.section1Coaching {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .ulHeaderPageCoaching {
     display: flex;
@@ -69,22 +82,10 @@
 
 .imgS1 {
     width: 455px;
-    border-radius: 10px 0px 0px 0px;
+    border-radius: 10px;
 }
 
-.imgS2 {
-    width: 455px;
-    border-radius: 0px 0px 0px 10px;
-}
-.imgS3 {
-    width: 455px;
-    border-radius: 0px 10px 0px 0px;
-}
 
-.imgS4 {
-    width: 455px;
-    border-radius: 0px 0px 10px 0px;
-}
 
 .boxDetailsPageCoaching {
     display: flex;
@@ -143,64 +144,108 @@
     width: 400px;
     height: 360px;
     perspective: 1000px;
-  }
-  
-  .card-inner {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: transform 0.999s;
-  }
-  
-  .card:hover .card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .card-front,
-  .card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-  
-  .card-front {
-    background-color: #9464F4;
-    box-shadow: 20px 20px 60px #bebebe,
-                -20px -20px 60px #ffffff;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    border: 10px solid #9464F4;
-    border-radius: 10px;
-    justify-content: center;
-    font-size: 24px;
-    transform: rotateY(0deg);
-  }
-  
-  .card-back {
-    background-color: #ffffff;
-    box-shadow: 20px 20px 60px #bebebe,
-                -20px -20px 60px #ffffff;
-    color: #9464F4;
-    display: flex;
-    align-items: center;
-    border: 10px solid #ffffff;
-    border-radius: 10px;
-    justify-content: center;
-    font-size: 24px;
-    transform: rotateY(180deg);
-  }
+}
+
+.card-inner {
+width: 100%;
+height: 100%;
+position: relative;
+transform-style: preserve-3d;
+transition: transform 0.999s;
+}
+
+.card:hover .card-inner {
+transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+position: absolute;
+width: 100%;
+height: 100%;
+backface-visibility: hidden;
+}
+
+.card-front {
+background-color: #9464F4;
+box-shadow: 20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;
+color: #fff;
+display: flex;
+align-items: center;
+border: 10px solid #9464F4;
+border-radius: 10px;
+justify-content: center;
+font-size: 24px;
+transform: rotateY(0deg);
+}
+
+.card-back {
+background-color: #ffffff;
+box-shadow: 20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;
+color: #9464F4;
+display: flex;
+align-items: center;
+border: 10px solid #ffffff;
+border-radius: 10px;
+justify-content: center;
+font-size: 24px;
+transform: rotateY(180deg);
+}
   
 
 /* ---------------- */
 
+
+@media (max-width: 1350px) {
+    .boxDiferences {
+        flex-direction: column;
+    }
+
+    .miniBoxDiferences {
+        flex-direction: row;
+    }
+
+    .imgDiferences {
+        width: 910px;
+
+    }
+    
+    .imgS1 {
+        width: 455px;
+
+    }
+
+}
+
 @media (max-width: 1100px) {
     .detailsPageCoaching {
-        width: 80%
-        
-        
+        width: 80%  
+    } 
+
+    .section1Coaching {
+        width: 90%;
+    
+    }
+}
+
+@media (max-width: 950px) {
+    .boxDiferences {
+        width: 90%;
+    }
+
+    .imgDiferences {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .miniBoxDiferences {
+        width: 100º;
+    }
+
+    .imgS1 {
+        width: 50%;
     }
 }
 
@@ -226,6 +271,11 @@
     .summaryPageCoaching {
         flex-direction: column;
         
+    }
+
+    .card {
+        width: 300px;
+
     }
 
     

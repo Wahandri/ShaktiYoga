@@ -35,7 +35,7 @@ export default function PageNutrition() {
   };
 
   return <div className="boxNutrition">
-    <header className="headerNutrition">
+    <header className="borderCard headerNutrition">
       <div className="h1Header">
         <h1 className="h1HeaderNutrition whiteColor">SALUD Y FELICIDAD</h1>
       </div>

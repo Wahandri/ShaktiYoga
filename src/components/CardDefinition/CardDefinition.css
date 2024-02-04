@@ -59,11 +59,20 @@
     }
 
     .imgCardDefinition {
-        width: 280px;
         margin-right: 50px;
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 700px) {
+    .boxCardDefinition {
+        margin: 10px;
+    }
 
+    .cardContainer {
+        width: 100%;
+    }
+
+    .cardDescription {
+        width: 100%;
+    }
 }

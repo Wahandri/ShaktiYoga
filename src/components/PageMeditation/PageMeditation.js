@@ -1,11 +1,11 @@
 import React from "react";
 import "./PageMeditation.css";
-import meditation from "../../images/LogoDario.png";
+
 
 export default function PageMeditation() {
   return <div className="boxPageMeditation">
 
-    <header className="headerMeditation">
+    <header className="borderCard headerMeditation">
       <div className="divHeaderMeditation">
         <h1 className="whiteColor">Medita y Baila</h1>
         <p>

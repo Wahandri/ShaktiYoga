@@ -14,7 +14,7 @@ export default function PageMassage() {
 
   return (
     <div className="flex-column center">
-      <div className=" imgHeaderMassage flex center padding-20 ">
+      <div className="borderCard imgHeaderMassage">
         <h1 className="textHeader borderCardOpacity padding-20">
           El masaje no sólo incluye rituales de belleza, sino cuidados, salud,
           emociones y porque es una excelente herramienta para ayudar y amar sin

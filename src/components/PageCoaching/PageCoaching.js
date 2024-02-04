@@ -11,7 +11,6 @@ import imgS1 from "../../images/imgS1.jpeg";
 import imgS2 from "../../images/imgS2.jpeg";
 import imgS3 from "../../images/imgS3.jpeg";
 import imgS4 from "../../images/imgS4.jpeg";
-import imgHeader from "../../images/coachingHeader2.png";
 
 export default function PageCoaching() {
   const [isOpen, setIsOpen] = useState({
@@ -36,7 +35,7 @@ export default function PageCoaching() {
         </div>
       </div>
       
-      <div className="flex-column pinkColor center w-60 borderCard">
+      <div className="section1Coaching pinkColor borderCard">
         <h1>Alguna de estas frases te resuenan??</h1>
         <div className="flex ">
           <ul className="ulHeaderPageCoaching">
@@ -147,7 +146,7 @@ export default function PageCoaching() {
           </div>
         </section>
 
-        <div className="w-80 mt-40 flex-column center">
+        <div className="w-90 mt-40 flex-column center">
           <p>
             <b>Y si hasta hoy te has preguntado:</b> ¿Por qué la terapia
             tradicional tarda tantas sesiones en dar resultados? ¿Por qué yo no
@@ -176,15 +175,15 @@ export default function PageCoaching() {
         </div>
       </div>
 
-      <div className="flex">
-        <div className="flex-column">
+      <div className="boxDiferences">
+        <div className="miniBoxDiferences">
           <img className="imgS1 " src={imgS1} alt="" />
-          <img className="imgS2 " src={imgS2} alt="" />
+          <img className="imgS1 " src={imgS2} alt="" />
         </div>
         <img className="imgDiferences" src={diferences} alt="" />
-        <div className="flex-column">
-          <img className="imgS3 " src={imgS3} alt="" />
-          <img className="imgS4 " src={imgS4} alt="" />
+        <div className="miniBoxDiferences">
+          <img className="imgS1 " src={imgS3} alt="" />
+          <img className="imgS1 " src={imgS4} alt="" />
         </div>
       </div>
 

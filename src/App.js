@@ -1,4 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import "./App.css";
 import Start from "./components/Start/Start";
 import Header from "./components/Header/Header";
@@ -10,10 +12,21 @@ import PageYoga from "./components/PageYoga/PageYoga";
 import PageNutrition from "./components/PageNutrition/PageNutrition";
 import PageContact from "./components/PageContact/PageContact";
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Header />
         <Routes>
           <Route path="/" element={<Start />} />
@@ -23,7 +36,6 @@ function App() {
           <Route path="/yoga" element={<PageYoga />} />
           <Route path="/nutrition" element={<PageNutrition />} />
           <Route path="/contact" element={<PageContact />} />
-          <Route path="/" element={<Start />} />
         </Routes>
         <Footer />
       </Router>
