@@ -40,7 +40,6 @@
     display: grid;
     grid-template-columns: repeat(7, 1fr); 
     gap: 10px;
-    margin-top: 30px;
     padding-right: 20px;
     height: 120px;
     overflow: hidden;
@@ -81,11 +80,6 @@
 
 
 /* ------Responsive------ */
-@media (max-width: 1180px) {
-    
-
-    
-}
 
 @media (max-width: 1080px) {
     .marginTop {
@@ -94,6 +88,7 @@
 
     .boxHeader {
         width: 100%;
+        
     }
 
     .linkLi {
@@ -107,17 +102,22 @@
         background: radial-gradient(circle, #8d50ffcb 1%, rgba(148,187,233,0) 80%);
         color: #fff;
     }
+    
+    .marginTopMenu {
+        margin-top: 20px;
+    }
 
     .navBar {
-        /* padding-top: 20px; */
+        
         align-items: center;
         height: 0;
         flex-direction: column; 
         position: absolute;
-        top: 70px;
+        top: 50px;
         left: 0;
         right: 0;
         backdrop-filter: blur(8px);
+        border-radius: 40px;
     }
 
     .line {
@@ -136,5 +136,15 @@
     display: flex;
     background: rgba(255, 255, 255, 0.281);
 
+    }
+}
+
+@media (max-width: 500px) {
+    .imgLogo {
+        display: none;
+    }
+
+    .menuButton {
+        margin-left: 30px;
     }
 }

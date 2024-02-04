@@ -14,7 +14,7 @@ export default function PageYoga() {
   return (
     <div className="boxPageYoga">
       <section className="headerPageYoga">
-        <div className="flex btw w-100 aling-center">
+        <div className="divHeaderPageYoga">
           <div className="flex-column size50 backgroundDark">
             <h1 className="whiteColor">"El camino del Yoga"</h1>
             <p>
@@ -151,9 +151,9 @@ export default function PageYoga() {
       </section>
 
       <section className="sectionDescriptionDario borderCard">
-        <div >
+        
           <img className="imgDario borderCard" src={imgDario} alt="" />
-        </div>
+        
         
         <div className=" padding-10">
           <img className="skill" src={españa} alt="" />

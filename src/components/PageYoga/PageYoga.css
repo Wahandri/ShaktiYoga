@@ -8,12 +8,21 @@
     gap: 100px;
 }
 
+.divHeaderPageYoga {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+}
+
 .headerPageYoga {
     background-image: url("../../images/headerYoga.png");
     background-blend-mode:color-burn;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: right;
     background-attachment: fixed;
     width: 98vw;
     height: 90vh; 
@@ -99,7 +108,7 @@
 }
 
 .imgDario {
-    width: 600px;
+    width: 800px;
     border-radius: 10px;
     margin-top: 60px;
 }
@@ -116,4 +125,42 @@
 .skill {
     width: 40px;
     margin: 5px;
+}
+
+@media (max-width: 1650px) {
+    .divHeaderPageYoga {
+        flex-direction:column-reverse;
+        gap: 20px;
+
+    }
+
+    .sectionPageYoga {
+        flex-direction: column;
+    }
+
+    .imgSectionYoga {
+        width: 100%;
+        margin-left: 0px;
+        border-radius: 50px;
+    }
+
+    .descriptionSectionYoga {
+        width: 90%;
+    
+    }
+}
+
+@media (max-width: 1000px) {
+    .size100 {
+        width: 100%;
+    }
+
+    .darioDescription {
+        width: 100%;
+    }
+
+    .imgDario {
+        width: 90%;
+    }
+
 }

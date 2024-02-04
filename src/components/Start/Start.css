@@ -87,6 +87,10 @@
         height: 100%;
     }
 
+    .welcomeDescription {
+        width: 90%;
+    }
+
     .imagesHeaderStart {
         flex-direction: column-reverse;
     }
@@ -109,10 +113,7 @@
     text-align: center;
   }
 
-  .welcomeDescription {
-        width: 90%;
-    
-  }
+  
 }
 
 @media (max-width: 600px) {

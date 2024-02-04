@@ -43,7 +43,6 @@
 }
 
 .borderDescription {
-    /* box-shadow: 10px 10px 20px rgba(117, 117, 117, 0.449); */
     border-radius: 10px;
     background-color: #fff;
     
@@ -51,11 +50,16 @@
 
 @media (max-width: 1350px) {
 
+    .cardDescription {
+        width: 100%;
+    }
+
     .cardContainer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 50px;
+        width: 100%;
     }
 
     .imgCardDefinition {
@@ -69,10 +73,6 @@
     }
 
     .cardContainer {
-        width: 100%;
-    }
-
-    .cardDescription {
         width: 100%;
     }
 }

@@ -39,7 +39,7 @@ export default function Header() {
         <ul className="navBar">
           <Link
             onClick={closeMenu}
-            className={`myBtn ${isActive("/") ? "active" : ""}`}
+            className={`myBtn marginTopMenu ${isActive("/") ? "active" : ""}`}
             to="/"
           >
             INICIO
