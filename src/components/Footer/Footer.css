@@ -2,12 +2,37 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    height: 80px;
+    width: 100%;
+    height: 250px;
     background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
     border: 1px solid #8D50FF;
-    margin-left: 9px;
-    margin-right: 9px;
     margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+.section1Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    width: 300px;
+}
+
+.footerLink {
+    text-decoration: none;
+    color: #8D50FF;
+}
+
+
+@media (max-width: 768px) {
+    .boxFooter {
+        flex-direction: column;
+        height: max-content;
+    }
+    .section1Footer {
+        width: 100%;
+        height: 50%;
+    }
 }

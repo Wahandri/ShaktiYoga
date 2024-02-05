@@ -9,7 +9,7 @@ import phone from "../../images/phone.png";
 import gpsU from "../../images/gpsU.png";
 
 const PageContact = () => { 
-  const position = [36.588122, -4.533560]; // Coordenadas de la dirección aproximada
+  const position = [36.59642993520726, -4.534141545968688]; // Coordenadas de la dirección aproximada
 const exactPosition = [36.59642993520726, -4.534141545968688]; // Coordenadas exactas de la dirección
 
   // Define un ícono personalizado para el marcador de la dirección exacta

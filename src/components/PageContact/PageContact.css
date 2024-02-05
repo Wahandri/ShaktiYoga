@@ -32,3 +32,10 @@
 .leaflet-container {
     border-radius: 50px;
 }
+
+@media (max-width: 750px) {
+    .contact-details {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
