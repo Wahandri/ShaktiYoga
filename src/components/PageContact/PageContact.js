@@ -75,6 +75,14 @@ const exactPosition = [36.59642993520726, -4.534141545968688]; // Coordenadas ex
           </Marker>
         </MapContainer>
       </div>
+
+
+
+      {/* Test boton wasap */}
+
+      <a target="_blank" without rel="noreferrer" href="https://wa.me/+34744641741?text=Hola,%20me%20gustaría%20concertar%20una%20cita.%20¿Cuándo%20estás%20disponible%3F">
+        <button>Contactar por WhatsApp</button>
+    </a>
     </div>
   );
 };
