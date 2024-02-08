@@ -11,6 +11,8 @@ import PageMassage from "./components/PageMassage/PageMassage";
 import PageYoga from "./components/PageYoga/PageYoga";
 import PageNutrition from "./components/PageNutrition/PageNutrition";
 import PageContact from "./components/PageContact/PageContact";
+import FloatButton from "./components/FloatButton/FloatButton";
+
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -28,6 +30,7 @@ function App() {
       <Router>
         <ScrollToTop />
         <Header />
+        <FloatButton />
         <Routes>
           <Route path="/" element={<Start />} />
           <Route path="/coaching" element={<PageCoaching />} />
@@ -37,6 +40,7 @@ function App() {
           <Route path="/nutrition" element={<PageNutrition />} />
           <Route path="/contact" element={<PageContact />} />
         </Routes>
+        
         <Footer />
       </Router>
     </div>

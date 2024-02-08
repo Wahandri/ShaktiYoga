@@ -1,0 +1,28 @@
+.boxFloatButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .floatButton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .floatButton img {
+    width: 75px;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
+  .floatButton:hover {
+    scale: 1.2;
+  }
+  
+
