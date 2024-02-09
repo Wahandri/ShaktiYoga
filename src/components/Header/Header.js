@@ -3,8 +3,8 @@ import "./Header.css";
 import logoShakti from "../../images/shakti.png";
 import facebook from "../../images/facebook.png";
 import { Link, useLocation } from "react-router-dom";
-import shop from "../../images/bolsa-de-la-compra.png";
 import menu from "../../images/menu.png";
+import instagram from "../../images/instagram.png";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -74,7 +74,7 @@ export default function Header() {
             className={`myBtn ${isActive("/meditation") ? "active" : ""}`}
             to="/meditation"
           >
-            MEDITACION
+            MEDITA Y BAILA
           </Link>
           
           
@@ -98,12 +98,12 @@ export default function Header() {
         </ul>
         <div className="socialNetworkIcons">
           <a
-            href="https://shop.foreverliving.it/zappoli-simona-340000606427.html"
+            href="https://www.instagram.com/simona_zappoli/?igsh=bTVoZ3hhamZua24w"
             target="_blank"
-            title="Tienda"
+            title="Instagram"
             rel="noopener noreferrer"
           >
-            <img className="iconSocial" src={shop} alt="" />
+            <img className="iconSocial" src={instagram} alt="" />
           </a>
           <a
             href="https://www.facebook.com/profile.php?id=100064173574424"

@@ -1,6 +1,6 @@
 .boxFloatButton {
     position: fixed;
-    bottom: 20px;
+    bottom: 50px;
     right: 20px;
     z-index: 1000;
   }
@@ -15,7 +15,7 @@
   }
   
   .floatButton img {
-    width: 75px;
+    width: 60px;
     height: auto;
     display: block;
     margin: auto;
@@ -23,6 +23,10 @@
   
   .floatButton:hover {
     scale: 1.2;
+  }
+
+  @media (max-width: 768px) {
+    
   }
   
 

@@ -6,6 +6,8 @@ import email from "../../images/email.png";
 import phone from "../../images/phone.png";
 import facebook from "../../images/facebook.png";
 import logoDario from "../../images/LogoDario.png";
+import shop from "../../images/bolsa-de-la-compra.png";
+import instagram from "../../images/instagram.png";
 
 
 export default function Footer() {
@@ -37,14 +39,32 @@ export default function Footer() {
 
       <section className="section1Footer">
         <h3>CONTACTANOS</h3>
-        <a
-          href="https://www.facebook.com/profile.php?id=100064173574424"
-          target="_blank"
-          title="Facebook"
-          rel="noopener noreferrer"
-        >
-          <img className="iconSocial" src={facebook} alt="" />
-        </a>
+        <div className="flex center gap-20">
+          <a
+            href="https://www.facebook.com/profile.php?id=100064173574424"
+            target="_blank"
+            title="Facebook"
+            rel="noopener noreferrer"
+          >
+            <img className="iconSocial" src={facebook} alt="" />
+          </a>
+          <a
+            href="https://www.instagram.com/simona_zappoli/?igsh=bTVoZ3hhamZua24w"
+            target="_blank"
+            title="Instagram"
+            rel="noopener noreferrer"
+          >
+            <img className="iconSocial" src={instagram} alt="" />
+          </a>
+          <a
+              href="https://shop.foreverliving.it/zappoli-simona-340000606427.html"
+              target="_blank"
+              title="Tienda"
+              rel="noopener noreferrer"
+            >
+              <img className="iconSocial" src={shop} alt="" />
+            </a>
+        </div>
         
         <div className="">
           <div className="flex">

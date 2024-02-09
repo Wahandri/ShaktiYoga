@@ -30,7 +30,6 @@ function App() {
       <Router>
         <ScrollToTop />
         <Header />
-        <FloatButton />
         <Routes>
           <Route path="/" element={<Start />} />
           <Route path="/coaching" element={<PageCoaching />} />
@@ -40,7 +39,7 @@ function App() {
           <Route path="/nutrition" element={<PageNutrition />} />
           <Route path="/contact" element={<PageContact />} />
         </Routes>
-        
+        <FloatButton />
         <Footer />
       </Router>
     </div>

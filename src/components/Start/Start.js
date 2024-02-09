@@ -1,6 +1,6 @@
 import React from "react";
 import "./Start.css";
-import logoShakti from "../../images/shakti.png";
+import logoShakti from "../../images/logoSimona.png";
 import imgCoaching from "../../images/emocionalcoaching.jpg";
 import imgCoaching2 from "../../images/el-masaje-relajante-es-una-tecnica-ancestral-para-armonizar-las-emociones.jpeg";
 import Simona from "../../images/Simona.png";
@@ -20,7 +20,7 @@ export default function Start() {
             alt="Logo Shakti"
           />
           <div className="noOpacity flex-column center">
-            <img className=" imgSimona" src={Simona} alt="" />
+            {/* <img className=" imgSimona" src={Simona} alt="" /> */}
             <h4 className="blackColor">"El único límite es tu mente."</h4>
           </div>
         </div>
