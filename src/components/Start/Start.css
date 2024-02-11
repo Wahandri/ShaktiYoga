@@ -5,13 +5,12 @@
 }
 
 .startHeader {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    gap: 100px;
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.8);
     background-image: url("../../images/planta.png");
-
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -86,7 +85,7 @@
 
 @media (max-width: 1300px) {
     .startHeader {
-        grid-template-columns: 1fr;
+        flex-direction: column;
         height: 100%;
     }
 
