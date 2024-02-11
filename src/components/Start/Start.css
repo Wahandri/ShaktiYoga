@@ -10,7 +10,8 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.8);
-    /* background-image: url("../../images/2017-02-22-14-17-24.jpg"); */
+    background-image: url("../../images/planta.png");
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -30,7 +31,6 @@
 .noOpacity {
     position: relative;
     z-index: 1;
-    /* margin-bottom: 100px; */
 }
 
 .welcomeStart {
@@ -38,20 +38,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-}
-
-.welcomeDescription {
     width: 700px;
-    background-color: #ffffff72;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 10px 10px 20px rgba(117, 117, 117, 0.2);
+    background-color: #ffffff72;
+
 }
+
+
 
 .logoShakti {
     width: 450px;
     float: left;
+    box-shadow: 10px 10px 20px rgba(117, 117, 117, 0.2);
+    background-color: #ffffff72;
+    border-radius: 100%;
+
 }
 
 .imgSimona {

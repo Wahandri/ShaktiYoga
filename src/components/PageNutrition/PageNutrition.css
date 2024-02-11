@@ -64,7 +64,7 @@
 }
 
 .boxDepresion {
-    width: 100%;
+    width: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,6 +73,10 @@
                 -20px -20px 60px #ffffff;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    background-color: #fff;
 }
 
 .imgDepresion {

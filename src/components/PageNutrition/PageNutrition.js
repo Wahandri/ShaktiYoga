@@ -64,7 +64,7 @@ export default function PageNutrition() {
       </div>
     </section>
 
-    <section className="">
+    <section className="w-100 flex-column center">
       <div className="boxDepresion">
         <img className="imgDepresion" src={depresion} alt=""/>
         <p className="pDepresion ">

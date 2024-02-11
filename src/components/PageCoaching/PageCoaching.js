@@ -30,7 +30,7 @@ export default function PageCoaching() {
   return (
     <div className="boxPageCoaching">
       <div className="headerPageCoaching borderCard">
-        <div className="h1HeaderPageCoaching boxShadow">
+        <div className="h1HeaderPageCoaching ">
           <h1 className="whiteColor">“La curiosidad y el autoconocimiento te llevara a tu destino”</h1>
         </div>
       </div>
@@ -40,56 +40,46 @@ export default function PageCoaching() {
         <div className="flex ">
           <ul className="ulHeaderPageCoaching">
             <li>
-              <h3 className="whiteColor">Me siento culpable</h3>
+              <h3 className="">Me siento culpable</h3>
             </li>
             <li>
-              <h3 className="whiteColor">Soy muy vergonzosa</h3>
+              <h3 className="">Soy muy vergonzosa</h3>
             </li>
             <li>
-              <h3 className="whiteColor">Tengo miedo al rechazo</h3>
+              <h3 className="">Tengo miedo al rechazo</h3>
             </li>
             <li>
-              <h3 className="whiteColor">No gestiono mi tristeza</h3>
+              <h3 className="">No gestiono mi tristeza</h3>
             </li>
             <li>
-              <h3 className="whiteColor">Me cuesta poner límites</h3>
-            </li>
-          
-            <li>
-              <h3 className="whiteColor">
-                Quiero tomar la decisión de cambiar trabajo pero tengo miedo
-              </h3>
+              <h3 className="">Me cuesta poner límites</h3>
             </li>
             <li>
-              <h3 className="whiteColor">He sufrido abusos</h3>
+              <h3 className="">He sufrido abusos</h3>
             </li>
             <li>
-              <h3 className="whiteColor">Soy muy perfeccionista</h3>
+              <h3 className="">Soy muy perfeccionista</h3>
             </li>
             <li>
-              <h3 className="whiteColor">Soy muy indecisa</h3>
-            </li>
-          
-            <li>
-              <h3 className="whiteColor">Relaciones complicadas de pareja</h3>
+              <h3 className="">Soy muy indecisa</h3>
             </li>
             <li>
-              <h3 className="whiteColor">He perdido la ilusión y quiero recuperarla</h3>
+              <h3 className="">Relaciones complicadas de pareja</h3>
             </li>
             <li>
-              <h3 className="whiteColor">Me asusto fácil y me da mucha ansiedad</h3>
+              <h3 className="">Me asusto fácil y me da mucha ansiedad</h3>
             </li>
             <li>
-              <h3 className="whiteColor">Estoy decepcionada</h3>
+              <h3 className="">Estoy decepcionada</h3>
             </li>
             <li>
-              <h3 className="whiteColor">Me estoy separando</h3>
+              <h3 className="">Me estoy separando</h3>
             </li>
           </ul>
         </div>
       </div>
 
-      <div className="flex-column center gap-40  w-80  padding-40">
+      <div className="boxDescriptionCoaching">
         <h1 className="text-center">
           Te explicaré que hacemos, que es el coaching de intervención
           estratégica y por que puede ayudarte
@@ -169,7 +159,7 @@ export default function PageCoaching() {
             Llevamos mucho tiempo creyendo que cambiar es difícil , que es
             lento, que no puede hacerlo todo el mundo, que no dura… Por eso
             cuando sentimos que algo nos duele emocionalmente pensamos que nunca
-            habrá forma de deshacernos de ese malestar.¡¡ PERO ES MENTIRA !!
+            habrá forma de deshacernos de ese malestar.
             <b>¡¡ PERO ES MENTIRA !!</b>
           </p>
         </div>
@@ -244,7 +234,7 @@ export default function PageCoaching() {
         </div>
       </section>
 
-      <div className="w-80">
+      <div className="boxWhot">
         <details
           open={isOpen.howWeDoIt}
           onToggle={() => toggleDetails("howWeDoIt")}
@@ -259,7 +249,7 @@ export default function PageCoaching() {
               <img width="20px" src={FlechaAbajoIcon} alt="Abajo" />
             )}{" "}
           </summary>
-          <div className="padding-20">
+          <div className="w-100">
             <p>
               En primer lugar tendremos una sesión exploratoria gratuita y sin
               compromiso, de 30 minutos de duración, en la que evaluaremos si
@@ -296,9 +286,10 @@ export default function PageCoaching() {
         </details>
       </div>
 
-      <div>
-        <h2>Descripción del video</h2>
+      <div className="flex-column center">
+        <h2>Documental sobre intervención estratégica</h2>
         <iframe
+        className="borderCard"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/PgMjrtsN7gI?si=4PVipEOvNRUz7Bnp"

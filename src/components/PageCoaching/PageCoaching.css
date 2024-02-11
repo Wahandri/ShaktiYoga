@@ -13,9 +13,9 @@
     align-items: center;
     height: 90vh;
     width: 100%;
-    background-image: url("../../images/2017-02-22-14-17-24.jpg");
+    background-image: url("../../images/Diseño\ sin\ título.png");
     background-size: cover;
-    background-position:right;
+    background-position:top;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -26,6 +26,15 @@
     width: 600px;
     margin: 60px;
     text-align: center;
+    box-shadow: 20px 20px 60px #292929,
+                -20px -20px 60px #3a3a3a;
+}
+
+.boxDescriptionCoaching {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    gap: 40px;
 }
 
 .boxImgS {
@@ -56,23 +65,18 @@
     width: 1000px;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 
 .ulHeaderPageCoaching {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
     margin: 40px;
     width: 100%;
-}
-
-.ulHeaderPageCoaching li {
-    background-color: #9464F4;
-    border-radius: 15px;
-    list-style: none;
 }
 
 .imgDiferences {
@@ -85,7 +89,13 @@
     border-radius: 10px;
 }
 
-
+.boxWhot {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .boxDetailsPageCoaching {
     display: flex;
@@ -96,7 +106,7 @@
 }
 
 .detailsPageCoaching {
-    /* width: 1000px; */
+    width: 100%;
     box-shadow: 20px 20px 60px #bebebe,
                 -20px -20px 60px #ffffff;
     border-radius: 10px;
@@ -106,7 +116,6 @@
     align-items: center;
     margin: 20px;
     background-color: #ffffff;
-    
 }
 
 .summaryPageCoaching {
@@ -224,6 +233,14 @@ transform: rotateY(180deg);
         width: 80%  
     } 
 
+    .boxDescriptionCoaching {
+        width: 90%;
+    }
+
+    .boxWhot {
+        width: 90%;
+    }
+
     .section1Coaching {
         width: 90%;
     
@@ -269,8 +286,10 @@ transform: rotateY(180deg);
     }
 
     .summaryPageCoaching {
-        flex-direction: column;
-        
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 20px;
+        width: 100%;
     }
 
     .card {

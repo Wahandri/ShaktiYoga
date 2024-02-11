@@ -1,13 +1,12 @@
 import React from "react";
 import "./Start.css";
 import logoShakti from "../../images/logoSimona.png";
-import imgCoaching from "../../images/emocionalcoaching.jpg";
+import imgCoaching from "../../images/manosAmigo.png";
 import imgCoaching2 from "../../images/el-masaje-relajante-es-una-tecnica-ancestral-para-armonizar-las-emociones.jpeg";
-import Simona from "../../images/Simona.png";
 import CardDefinition from "../CardDefinition/CardDefinition";
 import fruitADN from "../../images/fruitADN.jpg";
 import danceMeditation from "../../images/danceMeditation.jpeg";
-import iconDario from "../../images/LogoDario2.png"
+import iconDario from "../../images/yogaC.png"
 
 export default function Start() {
   return (
@@ -20,15 +19,14 @@ export default function Start() {
             alt="Logo Shakti"
           />
           <div className="noOpacity flex-column center">
-            {/* <img className=" imgSimona" src={Simona} alt="" /> */}
-            <h4 className="blackColor">"El único límite es tu mente."</h4>
+            <h4 className="">"El único límite es tu mente."</h4>
           </div>
         </div>
         <div className="noOpacity welcomeStart">
           <h1 className="title">
             <span className="pinkColor">Salud y Bienestar Holístico</span>
           </h1>
-          <p className="borderCard welcomeDescription">
+          <p className=" welcomeDescription">
             Bienvenido y felicidades por embarcarte en el camino del crecimiento
             y el bienestar. <br />
             <br /> Si estás aquí, es porque deseas cultivar un mayor amor
