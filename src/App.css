@@ -13,6 +13,10 @@
 }
 
 /* container */
+.media1000 {
+  width: 1000px;
+}
+
 .flex {
   display: flex;
 }
@@ -377,7 +381,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 610) {
+@media (max-width: 1100) {
+  .media1000 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 610px) {
   h1 {
     font-size: 30px;
   }

@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: column;
     gap: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 .h1HeaderNutrition {
@@ -106,6 +108,14 @@
     width: 100%;
 }
 
+.divDetailsNutrition {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
 /* ----------------------- */
 
 @media (max-width: 1230px) {
@@ -113,6 +123,10 @@
         flex-direction: column;
         gap: 20px;
     
+    }
+
+    .divDetailsNutrition {
+        width: 95%;
     }
 }
 

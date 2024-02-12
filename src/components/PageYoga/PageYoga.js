@@ -48,7 +48,7 @@ export default function PageYoga() {
       </div>
 
       <section className="borderCard ">
-        <div>
+        <div className="media1000">
           <h1>¿Porqué no somos la mejor versión de nosotros mismos?</h1>
           <p>
             Esta pregunta me ha atormentado durante años. Esta misma pregunta me

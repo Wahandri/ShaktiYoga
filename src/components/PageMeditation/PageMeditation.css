@@ -30,6 +30,14 @@
     margin: 50px;
 }
 
+.section1Meditation {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .sectionCardsMeditation {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -38,7 +46,7 @@
     flex-wrap: wrap;
     margin: 50px;
     color: #fff;
-    width: 80%;
+    width: 1000px;
 }
 
 .cardMeditation {
@@ -63,6 +71,7 @@
     align-items: center;
     width: 90%;
     gap: 50px;
+    margin-bottom: 50px;
 }
 
 .widthCard4 {
@@ -87,10 +96,20 @@
     gap: 70px;
 }
 
+
+
 @media (max-width: 1220px) {
     .lastCardMeditation {
         flex-direction: column;
     }
+
+    .section1Meditation {
+        width: 90%;
+    }
+
+    .media1000 {
+        width: 90%;
+      }
 }
 
 @media (max-width: 600px) {
