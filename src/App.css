@@ -1,15 +1,16 @@
 .App {
   border-radius: 10px;
-  background-image: url("./images/fondoWeb.png");
-  background-size: 100vw ; 
-  background-repeat: repeat-y;
-
-
-  
 }
 
 /* ----------------GLOVAL STYLES------------------ */
 
+/* background Flowers */
+
+.baseF {
+  background-image: url("/src/images/fondoWeb.png");
+  background-size: 100vw ;
+  background-repeat: repeat;
+}
 
 /* container */
 .flex {

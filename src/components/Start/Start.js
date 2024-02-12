@@ -10,7 +10,7 @@ import iconDario from "../../images/yogaC.png"
 
 export default function Start() {
   return (
-    <div className="boxStart flex column center">
+    <div className="boxStart baseF flex column center">
       <div className="startHeader borderCard">
         <div className="imagesHeaderStart">
           <img
