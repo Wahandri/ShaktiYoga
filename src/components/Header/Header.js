@@ -39,7 +39,7 @@ export default function Header() {
         <ul className="navBar">
           <Link
             onClick={closeMenu}
-            className={`myBtn marginTopMenu ${isActive("/") ? "active" : ""}`}
+            className={`myBtn responsiveBtn marginTopMenu ${isActive("/") ? "active" : ""}`}
             to="/"
           >
             INICIO
@@ -47,7 +47,7 @@ export default function Header() {
           <hr className="line" />
           <Link
             onClick={closeMenu}
-            className={`myBtn ${isActive("/coaching") ? "active" : ""}`}
+            className={`myBtn responsiveBtn ${isActive("/coaching") ? "active" : ""}`}
             to="/coaching"
           >
             COACHING
@@ -55,7 +55,7 @@ export default function Header() {
           <hr className="line" />
           <Link
             onClick={closeMenu}
-            className={`myBtn ${isActive("/massage") ? "active" : ""}`}
+            className={`myBtn responsiveBtn ${isActive("/massage") ? "active" : ""}`}
             to="/massage"
           >
             MASAJES
@@ -63,7 +63,7 @@ export default function Header() {
           <hr className="line" />
           <Link
             onClick={closeMenu}
-            className={`myBtn ${isActive("/nutrition") ? "active" : ""}`}
+            className={`myBtn responsiveBtn ${isActive("/nutrition") ? "active" : ""}`}
             to="/nutrition"
           >
             NUTRACEUTICA
@@ -71,7 +71,7 @@ export default function Header() {
           <hr className="line" />
           <Link
             onClick={closeMenu}
-            className={`myBtn ${isActive("/meditation") ? "active" : ""}`}
+            className={`myBtn responsiveBtn ${isActive("/meditation") ? "active" : ""}`}
             to="/meditation"
           >
             MEDITA Y BAILA
@@ -81,7 +81,7 @@ export default function Header() {
           <hr className="line" />
           <Link
             onClick={closeMenu}
-            className={`myBtn ${isActive("/yoga") ? "active" : ""}`}
+            className={`myBtn responsiveBtn ${isActive("/yoga") ? "active" : ""}`}
             to="/yoga"
           >
             YOGA
@@ -89,7 +89,7 @@ export default function Header() {
           <hr className="line" />
           <Link
             onClick={closeMenu}
-            className={`myBtn ${isActive("/contact") ? "active" : ""}`}
+            className={`myBtn responsiveBtn ${isActive("/contact") ? "active" : ""}`}
             to="/contact"
           >
             CONTACTANOS

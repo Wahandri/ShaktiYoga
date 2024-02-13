@@ -89,6 +89,10 @@
         height: 100%;
     }
 
+    .welcomeStart {
+        margin-bottom: 40px;
+    }
+
     .welcomeDescription {
         width: 90%;
     }
@@ -113,6 +117,10 @@
 @media (max-width: 780px) {
   .title {
     text-align: center;
+  }
+
+  .welcomeStart {
+    width: 90%;
   }
 
   

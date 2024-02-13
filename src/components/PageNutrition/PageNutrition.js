@@ -35,7 +35,7 @@ export default function PageNutrition() {
   };
 
   return <div className="boxNutrition">
-    <header className="borderCard headerNutrition">
+    <header className="borderCard2 headerNutrition">
       <div className="h1Header">
         <h1 className="h1HeaderNutrition whiteColor">SALUD Y FELICIDAD</h1>
       </div>
@@ -53,7 +53,7 @@ export default function PageNutrition() {
 
     <section className="section2 flex center">
       <div className="boxShadow whiteColor br-30 bg-purple flex-column center">
-        <h1 className="whiteColor">¿EMFERMEDAD o SALUD? <br/>¿Que elijes?</h1>
+        <h1 className="whiteColor text-center">¿EMFERMEDAD o SALUD? <br/>¿Que elijes?</h1>
         <ul>
           <li className="liNone"><p>Hoy, a diferencia de cuando empecé, los casos de problemas digestivos, intestinos inflamados, reacciones autoinmunes, intolerancias, etc., han aumentado exponencialmente.</p></li>
           <li className="liNone"><p>Todo esto no puede tomarse a la ligera y centra la atención en lo que sucede no sólo a nuestro alrededor sino también dentro de nosotros.  Todo esto tiene que ver con la calidad de los alimentos que comemos, cómo nos nutrimos a diario y el efecto que tienen los alimentos en nuestro organismo.</p></li>

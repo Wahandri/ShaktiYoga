@@ -11,7 +11,7 @@ import iconDario from "../../images/yogaC.png"
 export default function Start() {
   return (
     <div className="boxStart flex column center">
-      <div className="startHeader borderCard">
+      <div className="startHeader br-50 borderCard2">
         <div className="imagesHeaderStart">
           <img
             className="noOpacity logoShakti"

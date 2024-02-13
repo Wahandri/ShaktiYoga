@@ -5,7 +5,7 @@ import "./PageMeditation.css";
 export default function PageMeditation() {
   return <div className="boxPageMeditation">
 
-    <header className="borderCard headerMeditation">
+    <header className="borderCard2 headerMeditation">
       <div className="divHeaderMeditation">
         <h1 className="whiteColor">Medita y Baila</h1>
         <p>
@@ -15,7 +15,7 @@ export default function PageMeditation() {
       </div>
     </header>
 
-    <section className="borderCard section1Meditation">
+    <section className="borderCard br-50 section1Meditation">
       <div className="flex center">
         <h1>¿Que meditaciones tenemos?</h1>
       </div>
@@ -80,7 +80,7 @@ export default function PageMeditation() {
     </section>
 
     <section className="section2Meditation">
-      <div className="borderCard media1000 bg-purple whiteColor padding-20">
+      <div className="borderCard br-50 media1000 bg-purple whiteColor padding-20">
         <p>
           Estas meditaciones activas están diseñadas para ayudar a las personas a liberar tensiones físicas y mentales, a desbloquear emociones reprimidas, y a alcanzar estados de mayor conciencia y claridad mental. Cada una tiene sus propias técnicas y objetivos específicos, pero en general, todas buscan un equilibrio entre la actividad física, la conciencia respiratoria y la quietud mental. <br/><br/>
           Es importante practicar estas técnicas con la debida orientación y comprensión de sus principios para obtener los máximos beneficios.

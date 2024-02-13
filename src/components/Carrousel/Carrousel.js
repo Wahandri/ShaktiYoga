@@ -12,19 +12,19 @@ export default function Carrousel() {
       <div class="carrousel">
         <ul>
           <li>
-            <img src={img1} alt="1" />
+            <img className="br-50" src={img1} alt="1" />
           </li>
           <li>
-            <img src={img3} alt="2" />
+            <img className="br-50" src={img3} alt="2" />
           </li>
           <li>
-            <img src={img5} alt="3" />
+            <img className="br-50" src={img5} alt="3" />
           </li>
           <li>
-            <img src={img4} alt="4" />
+            <img className="br-50" src={img4} alt="4" />
           </li>
           <li>
-            <img src={img2} alt="5" />
+            <img className="br-50" src={img2} alt="5" />
           </li>
         </ul>
       </div>

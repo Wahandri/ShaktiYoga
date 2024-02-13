@@ -14,12 +14,11 @@
     justify-content: space-around;
     align-items: center;
     gap: 20px;
-
+    height: 60vh;
 }
 
 .headerPageYoga {
     background-image: url("../../images/headerYoga.png");
-    background-blend-mode:color-burn;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -29,9 +28,16 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    border-radius: 30px;
     color: white;
     
+}
+
+.boxWelcomeYoga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
 }
 
 .logoDario {
@@ -129,14 +135,10 @@
 }
 
 @media (max-width: 1650px) {
-    .divHeaderPageYoga {
-
-        gap: 20px;
-
-    }
 
     .sectionPageYoga {
         flex-direction: column;
+        width: 800px;
     }
 
     .imgSectionYoga {
@@ -147,6 +149,18 @@
 
     .descriptionSectionYoga {
         width: 90%;
+    
+    }
+}
+
+@media (max-width: 1450px) {
+    .divHeaderPageYoga {
+        flex-direction:column-reverse;
+        height: 70vh;
+    }
+
+    .YogaNone {
+        display: none;
     
     }
 }
@@ -168,10 +182,6 @@
         width: 100%;
     }
 
-    .sectionPageYoga {
-        flex-direction: column;
-    }
-
     .imgSectionYoga {
         width: 100%;
         margin-left: 0px;
@@ -188,4 +198,17 @@
         width: 90%;
     }
 
+}
+
+@media (max-width: 850px) {
+    .sectionPageYoga {
+        width: 90%;
+    
+    }
+}
+
+@media (max-width: 550px) {
+    .boxWelcomeYoga {
+        width: 90%;
+    }
 }

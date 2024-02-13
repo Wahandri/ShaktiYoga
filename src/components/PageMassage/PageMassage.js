@@ -14,7 +14,7 @@ export default function PageMassage() {
 
   return (
     <div className="flex-column center">
-      <div className="borderCard imgHeaderMassage">
+      <div className="borderCard2 imgHeaderMassage">
         <h1 className="textHeader borderCardOpacity padding-20">
           El masaje no sólo incluye rituales de belleza, sino cuidados, salud,
           emociones y porque es una excelente herramienta para ayudar y amar sin
@@ -23,41 +23,41 @@ export default function PageMassage() {
       </div>
 
       <div className="flex-column center w-100">
-        <h1>BENEFICIOS DE LOS MASAJES</h1>
+        <h1 className="text-center">BENEFICIOS DE LOS MASAJES</h1>
         <div className="boxBeneficios">
-          <div className="cardBeneficios borderCard">
+          <div className="cardBeneficios br-50 borderCard">
             <p className="">
               "El masaje es la forma más natural de aliviar el estrés. El arte
               del tacto, a menudo subestimado, puede calmar el alma."
             </p>{" "}
           </div>{" "}
-          <div className="cardBeneficios borderCard">
+          <div className="cardBeneficios br-50 borderCard">
             <p className="">
               "En el masaje estamos unidos en el arte de curar. Las manos hablan
               un lenguaje que el cuerpo entiende."
             </p>
           </div>{" "}
-          <div className="cardBeneficios borderCard">
+          <div className="cardBeneficios br-50 borderCard">
             <p className="">
               "El masaje no es sólo un lujo, es una forma de invertir en su
               salud física y mental".
             </p>
           </div>{" "}
-          <div className="cardBeneficios borderCard">
+          <div className="cardBeneficios br-50 borderCard">
             <p className="">
               "El contacto humano puede aliviar el estrés más que cualquier otra
               cosa. El masaje es el arte de reconectarse con uno mismo a través
               del tacto".
             </p>
           </div>{" "}
-          <div className="cardBeneficios borderCard">
+          <div className="cardBeneficios br-50 borderCard">
             <p className="">
               "En el caos de la vida moderna, el masaje es una isla de
               tranquilidad. Es un momento en el que te dedicas totalmente a ti
               mismo."
             </p>
           </div>{" "}
-          <div className="cardBeneficios borderCard">
+          <div className="cardBeneficios br-50 borderCard">
             <p className="">
               "Las manos curativas también pueden relajar. El masaje es una
               forma de bondad que el cuerpo reconoce". "El masaje es como un
@@ -65,19 +65,19 @@ export default function PageMassage() {
               nuestro ser."
             </p>
           </div>{" "}
-          <div className="cardBeneficios borderCard">
+          <div className="cardBeneficios br-50 borderCard">
             <p className="">
               "Las tensiones se disuelven bajo las manos de un buen masajista.
               El masaje es el lenguaje de la calma interior."
             </p>
           </div>{" "}
-          <div className="cardBeneficios borderCard">
+          <div className="cardBeneficios br-50 borderCard">
             <p className="">
               "El masaje no es sólo para el cuerpo cansado, es para el alma que
               necesita paz."
             </p>
           </div>{" "}
-          <div className="cardBeneficios borderCard">
+          <div className="cardBeneficios br-50 borderCard">
             <p className="">
               Estos aforismos reflejan la importancia y los beneficios que el
               masaje antiestrés puede aportar no sólo al cuerpo, sino también a
@@ -112,7 +112,7 @@ export default function PageMassage() {
         </div>
       </div>
 
-      <section className="borderCard sectionMassage padding-20  w-40">
+      <section className="borderCard mb-100 br-50 sectionMassage padding-20  w-40">
         <details className="" open={isOpen} onToggle={toggleDetails}>
           <summary className="bg-purple br-30 summaryMassage flex space-around">
             <div></div>

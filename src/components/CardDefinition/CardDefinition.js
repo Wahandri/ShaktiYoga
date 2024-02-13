@@ -25,7 +25,7 @@ export default function CardDefinition({
           alt={title}
           style={backgroundStyle}
         />
-        <div className="borderCard cardDescription">
+        <div className="borderCard br-50 cardDescription">
           <h2>{title}</h2>
           {description}
           {description2}

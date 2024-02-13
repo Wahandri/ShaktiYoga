@@ -7,6 +7,7 @@ import gps from "../../images/gps.png";
 import email from "../../images/email.png";
 import phone from "../../images/phone.png";
 import gpsU from "../../images/gpsU.png";
+import SZ from "../../images/SZ2.png";
 
 const PageContact = () => { 
   const position = [36.59642993520726, -4.534141545968688]; // Coordenadas de la dirección aproximada
@@ -22,10 +23,11 @@ const exactPosition = [36.59642993520726, -4.534141545968688]; // Coordenadas ex
 
   return (
     <div className="page-contact">
-      <div className="borderCard headerContact">
+      <div className="borderCard br-50 headerContact">
         <h1 className="text-center">
           ¡Conéctate Conmigo para Transformar Tu Bienestar!
         </h1>
+        <img className="imgSimonaSize" src={SZ} alt="Simona" />
         <p className="text-center">
           Soy Simona Zappoli, y estoy aquí para guiarte en tu camino hacia un bienestar holístico.
           Mi enfoque abarca desde la psicología holística hasta masajes terapéuticos, asesoramiento
@@ -57,7 +59,7 @@ const exactPosition = [36.59642993520726, -4.534141545968688]; // Coordenadas ex
         </div>
       </div>
 
-      <div className="borderCard border33">
+      <div className="borderCard br-50 border33">
         <MapContainer
           center={position}
           zoom={15}

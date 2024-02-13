@@ -18,6 +18,11 @@
     padding: 30px;
 }
 
+.imgSimonaSize {
+    width: 300px;
+    border-radius: 30px;
+}
+
 .contact-details {
     display: flex;
     margin-top: 20px;

@@ -15,7 +15,7 @@
     width: 100%;
     background-image: url("../../images/Diseño\ sin\ título.png");
     background-size: cover;
-    background-position:top;
+    background-position:right;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -202,6 +202,21 @@ justify-content: center;
 font-size: 24px;
 transform: rotateY(180deg);
 }
+
+.boxVideoCoaching {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoCoaching {
+    width: 600px;
+    height: 380px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+}
   
 
 /* ---------------- */
@@ -267,6 +282,14 @@ transform: rotateY(180deg);
 }
 
 @media (max-width: 680px) {
+    .boxVideoCoaching {
+        width: 95%;
+    }
+
+    .videoCoaching {
+        width: 95%;
+
+    }
 
     .ulHeaderPageCoaching {
         justify-content: center;

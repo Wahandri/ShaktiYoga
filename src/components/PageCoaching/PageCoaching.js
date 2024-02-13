@@ -29,13 +29,13 @@ export default function PageCoaching() {
 
   return (
     <div className="boxPageCoaching">
-      <div className="headerPageCoaching borderCard">
+      <div className="headerPageCoaching borderCard2">
         <div className="h1HeaderPageCoaching ">
           <h1 className="whiteColor">“La curiosidad y el autoconocimiento te llevara a tu destino”</h1>
         </div>
       </div>
       
-      <div className="section1Coaching pinkColor borderCard">
+      <div className="section1Coaching pinkColor br-50 borderCard">
         <h1>Alguna de estas frases te resuenan??</h1>
         <div className="flex ">
           <ul className="ulHeaderPageCoaching">
@@ -85,7 +85,7 @@ export default function PageCoaching() {
           estratégica y por que puede ayudarte
         </h1>
         <section className="boxDetailsPageCoaching gap-40">
-          <div className="textDetails flex-column center borderCard">
+          <div className="textDetails flex-column center br-50 borderCard">
             <h2 className="blackColor">¿QUE ES EL COACHING?</h2>
             <p>
               Es un proceso de acompañamiento personal, profesional y
@@ -96,7 +96,7 @@ export default function PageCoaching() {
             </p>
           </div>
 
-          <div className="textDetails flex-column center padding-40  borderCard">
+          <div className="textDetails flex-column center padding-40  br-50 borderCard">
             <h2 className="blackColor">¿PARA QUIEN ES?</h2>
             <p>
               El coaching emocional es para cualquier persona que tenga una
@@ -117,7 +117,7 @@ export default function PageCoaching() {
             </p>
           </div>
 
-          <div className="textDetails flex-column center padding-40 borderCard">
+          <div className="textDetails flex-column center padding-40 br-50 borderCard">
             <h2 className="blackColor">
               ¿QUE ES UNA INTERVENCION ESTRATEGICA?
             </h2>
@@ -286,12 +286,10 @@ export default function PageCoaching() {
         </details>
       </div>
 
-      <div className="flex-column center">
+      <div className="boxVideoCoaching">
         <h2>Documental sobre intervención estratégica</h2>
         <iframe
-        className="borderCard"
-          width="560"
-          height="315"
+        className="videoCoaching borderCard"
           src="https://www.youtube.com/embed/PgMjrtsN7gI?si=4PVipEOvNRUz7Bnp"
           title="YouTube video player"
           frameborder="0"

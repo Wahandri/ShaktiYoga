@@ -13,9 +13,9 @@ import alemania from "../../images/alemania.png";
 export default function PageYoga() {
   return (
     <div className="boxPageYoga">
-      <section className="headerPageYoga">
+      <section className="headerPageYoga borderCard2">
         <div className="divHeaderPageYoga">
-          <div className="flex-column size50 backgroundDark">
+          <div className="boxWelcomeYoga backgroundDark">
             <h1 className="whiteColor">"El camino del Yoga"</h1>
             <p>
               Te damos la bienvenida al mundo del yoga. <br/> 
@@ -29,13 +29,13 @@ export default function PageYoga() {
             <img className="logoDario" src={LogoDario} alt="" />
           </div>
 
-          <div className="size50">
+          <div className="size50 YogaNone">
             <p> </p>
           </div>
         </div>
       </section>
 
-      <div className="size100 ">
+      <div className="br-50 w-60 borderCard">
         <p>
           "Para nosotros en Shakti Yoga no hay nada mejor que ser testigo de la
           transformación que se produce en nuestros alumnos cuando realmente se
@@ -47,7 +47,7 @@ export default function PageYoga() {
         </p>
       </div>
 
-      <section className="borderCard ">
+      <section className="borderCard br-50">
         <div className="media1000">
           <h1>¿Porqué no somos la mejor versión de nosotros mismos?</h1>
           <p>
@@ -65,7 +65,7 @@ export default function PageYoga() {
       </section>
 
       <section className="bodyPageYoga">
-        <div className="sectionPageYoga borderCard">
+        <div className="sectionPageYoga borderCard br-50">
           <img className="imgSectionYoga" src={imgYoga1} alt="" />
           <div className="flex-column descriptionSectionYoga">
             <h1>RAYA YOGA</h1>
@@ -93,7 +93,7 @@ export default function PageYoga() {
           </div>
         </div>
 
-        <div className="sectionPageYoga borderCard">
+        <div className="sectionPageYoga borderCard br-50">
           <img className="imgSectionYoga" src={meditation} alt="" />
           <div className="flex-column descriptionSectionYoga">
             <h1>MEDITACION</h1>
@@ -120,7 +120,7 @@ export default function PageYoga() {
           </div>
         </div>
 
-        <div className="sectionPageYoga borderCard">
+        <div className="sectionPageYoga borderCard br-50">
           <img className="imgSectionYoga" src={mujeresYoga} alt="" />
           <div className="flex-column descriptionSectionYoga">
             <h1>LAS CLASES</h1>
@@ -150,9 +150,9 @@ export default function PageYoga() {
         </div>
       </section>
 
-      <section className="sectionDescriptionDario borderCard">
+      <section className="sectionDescriptionDario borderCard br-50">
         
-          <img className="imgDario borderCard" src={imgDario} alt="" />
+          <img className="imgDario borderCard br-50" src={imgDario} alt="" />
         
         
         <div className=" padding-10">
@@ -169,7 +169,6 @@ export default function PageYoga() {
             Sentí una fuerte necesidad de compartir mis experiencias y descubrimientos para ayudar a otros.<br /><br />
             Cuando conocí a Simona, mi mujer, estaba buscando un curso para ser profesora de yoga.<br />
             Nunca había pensado en dar clases, pero empecé a estudiar con ella y al final ¡me apunté también!  fue la explosión de una gran pasión, una verdadera obsesión, el medio perfecto para transmitir todo lo que ya había aprendido.<br />
-            {/* "che già avevo appreso." */}
             Hoy soy Maestro de meditación.<br />
             Zazen, vipassana, meditaciones activas y estáticas, maestro con gran pasión por Raja y Hata Yoga.<br />
             Con gran humildad, amor y alegría acompaño  las personas a tener buenas sensaciones con uno mismo , al conocimiento de esta disciplina milagrosa apta para todos, de la que me enamoré y que espero hacer enamorar mis alumnos. Siempre ay un antes y un despues
