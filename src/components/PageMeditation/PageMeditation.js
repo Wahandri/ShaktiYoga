@@ -1,5 +1,12 @@
 import React from "react";
 import "./PageMeditation.css";
+import Carrousel from "../Carrousel/Carrousel";
+import img1 from "../../images/mdt1.webp";
+import img2 from "../../images/mdt2.jpg";
+import img3 from "../../images/mdt3.png";
+import img4 from "../../images/mdt4.jpg";
+import img5 from "../../images/mdt5.jpg";
+
 
 
 export default function PageMeditation() {
@@ -7,18 +14,24 @@ export default function PageMeditation() {
 
     <header className="borderCard2 headerMeditation">
       <div className="divHeaderMeditation">
-        <h1 className="whiteColor">Medita y Baila</h1>
-        <p>
-          Las meditaciones activas son prácticas diseñadas para aquellas personas que encuentran difícil o incómodo sentarse en silencio durante largos períodos de tiempo. Estas técnicas combinan movimiento físico, respiración consciente, expresión emocional y eventualmente la quietud mental, proporcionando una forma alternativa de experimentar los beneficios de la meditación.<br/><br/>
-          Las meditaciones activas pueden variar en sus enfoques y técnicas, y algunas de las más conocidas fueron desarrolladas por Osho, un maestro espiritual indio.
-        </p>
+        <h1 className="whiteColor">MEDITA Y BAILA</h1>
+        
       </div>
     </header>
+
+    <div className="description0 borderCard">
+      <p>
+        Las meditaciones activas son prácticas diseñadas para aquellas personas que encuentran difícil o incómodo sentarse en silencio durante largos períodos de tiempo. Estas técnicas combinan movimiento físico, respiración consciente, expresión emocional y eventualmente la quietud mental, proporcionando una forma alternativa de experimentar los beneficios de la meditación.<br/><br/>
+        Las meditaciones activas pueden variar en sus enfoques y técnicas, y algunas de las más conocidas fueron desarrolladas por Osho, un maestro espiritual indio.
+      </p>
+    </div>
 
     <section className="borderCard br-50 section1Meditation">
       <div className="flex center">
         <h1>¿Que meditaciones tenemos?</h1>
       </div>
+
+      <Carrousel img1={img1} img2={img2} img3={img3} img4={img4} img5={img5}/>
 
       <div className="boxCardsMeditation">
         <div>
@@ -58,7 +71,7 @@ export default function PageMeditation() {
         <div className="card2 ">
           <div className="card2-inner">
             <div className="card2-front text-center">
-              <h1 className="whiteColor">MEDITACION GIBBERRISH</h1>
+              <h1 className="whiteColor">MEDITACION GIBBERISH</h1>
             </div>
             <div className="card2-back">
             Esta práctica implica hablar incoherentemente, dejando fluir cualquier sonido sin sentido durante un período de tiempo determinado, seguido por un momento de silencio y observación de la mente.

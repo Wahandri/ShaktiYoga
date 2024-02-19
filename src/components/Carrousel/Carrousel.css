@@ -1,29 +1,27 @@
-.carrousel
-{
+.carrousel {
 	overflow: hidden;
-	height:40vw;
+	height:30vw;
 	width:100%;
 }
-.carrousel ul/*ul*/
-{
-	width: 500%;   /*n pictures * 100 in %*/
+.carrousel ul {
+	width: 500%;  
 	height:100%;
-	animation: 40s slide infinite;/*animation starter*/
+	animation: 40s slide infinite;
 	text-align:center;
 	margin-top:0px;
 	padding: 0px;
 }
-.carrousel li/*li*/
-{
-	width: 20%; /*100 / n pictures*/
+.carrousel li {
+	width: 20%;
 	height:100%;
 	float: left;
 	list-style: none;
 }
-.carrousel img{height:100%;}
+.carrousel img {
+	height:100%;
+}
 
-@keyframes slide /*animation 5 images*/
-{
+@keyframes slide {
 	0%   {margin-left:0px;}
 	12%  {margin-left:-100%;}
 	18%  {margin-left:-100%;}

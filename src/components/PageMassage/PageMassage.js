@@ -4,6 +4,11 @@ import FlechaArribaIcon from "../../images/flecha-hacia-arriba.png";
 import FlechaAbajoIcon from "../../images/flecha-hacia-abajo.png";
 import MiniCard from "../MiniCard/MiniCard";
 import Carrousel from "../Carrousel/Carrousel";
+import img1 from "../../images/imgMassage1.jpeg";
+import img2 from "../../images/imgMassage2.jpeg";
+import img3 from "../../images/imgMassage3.jpeg";
+import img4 from "../../images/imgMassage4.png";
+import img5 from "../../images/imgMassage5.jpg";
 
 export default function PageMassage() {
   const [isOpen, setIsOpen] = useState(false);
@@ -89,7 +94,8 @@ export default function PageMassage() {
       <div className="titleBoxMiniCard borderCardOpacity">
         <h1>MASAJES</h1>
       </div>
-      <Carrousel />
+      
+      <Carrousel img1={img1} img2={img2} img3={img3} img4={img4} img5={img5} />
 
       <div className="boxMiniCard flex-column center">
         <div className="boxMiniCards">
