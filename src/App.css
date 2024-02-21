@@ -13,6 +13,10 @@
 }
 
 /* container */
+.subrayado {
+  border-bottom: 5px solid #9464F4;
+}
+
 .media1000 {
   width: 1000px;
 }
@@ -419,8 +423,9 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+
 @media (max-width: 450px) {
-  p {
-    font-size: 20px;  
-  }  
+  h1 {
+    font-size: 23px;
+  }
 }

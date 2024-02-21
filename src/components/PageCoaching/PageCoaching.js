@@ -31,49 +31,49 @@ export default function PageCoaching() {
     <div className="boxPageCoaching">
       <div className="headerPageCoaching borderCard2">
         <div className="h1HeaderPageCoaching ">
-          <h1 className="whiteColor">“La curiosidad y el autoconocimiento te llevara a tu destino”</h1>
+          <h1 className="sizeFontCoaching whiteColor">“La curiosidad y el autoconocimiento te llevara a tu destino”</h1>
         </div>
       </div>
       
       <div className="section1Coaching pinkColor br-50 borderCard">
-        <h1>Alguna de estas frases te resuenan??</h1>
+        <h1 className="subrayado">Alguna de estas frases te resuenan??</h1>
         <div className="flex ">
-          <ul className="ulHeaderPageCoaching">
-            <li>
-              <h3 className="">Me siento culpable</h3>
+          <ul className="liNonePoint ulHeaderPageCoaching">
+            <li className="liNonePoint  br-30 ">
+              <h3 className="">"Me siento culpable"</h3>
             </li>
-            <li>
-              <h3 className="">Soy muy vergonzosa</h3>
+            <li className="liNonePoint  br-30 ">
+              <h3 className="">"Soy muy vergonzosa"</h3>
             </li>
-            <li>
-              <h3 className="">Tengo miedo al rechazo</h3>
+            <li className="liNonePoint  br-30 ">
+              <h3 className="">"Tengo miedo al rechazo"</h3>
             </li>
-            <li>
-              <h3 className="">No gestiono mi tristeza</h3>
+            <li className="liNonePoint  br-30 ">
+              <h3 className="">"No gestiono mi tristeza"</h3>
             </li>
-            <li>
-              <h3 className="">Me cuesta poner límites</h3>
+            <li className="liNonePoint  br-30 ">
+              <h3 className="">"Me cuesta poner límites"</h3>
             </li>
-            <li>
-              <h3 className="">He sufrido abusos</h3>
+            <li className="liNonePoint  br-30 ">
+              <h3 className="">"He sufrido abusos"</h3>
             </li>
-            <li>
-              <h3 className="">Soy muy perfeccionista</h3>
+            <li className="liNonePoint  br-30 ">
+              <h3 className="">"Soy muy perfeccionista"</h3>
             </li>
-            <li>
-              <h3 className="">Soy muy indecisa</h3>
+            <li className="liNonePoint  br-30 ">
+              <h3 className="">"Soy muy indecisa"</h3>
             </li>
-            <li>
-              <h3 className="">Relaciones complicadas de pareja</h3>
+            <li className="liNonePoint  br-30 ">
+              <h3 className="">"Relaciones complicadas de pareja"</h3>
             </li>
-            <li>
-              <h3 className="">Me asusto fácil y me da mucha ansiedad</h3>
+            <li className="liNonePoint  br-30 ">
+              <h3 className="">"Me asusto fácil y me da mucha ansiedad"</h3>
             </li>
-            <li>
-              <h3 className="">Estoy decepcionada</h3>
+            <li className="liNonePoint  br-30 ">
+              <h3 className="">"Estoy decepcionada"</h3>
             </li>
-            <li>
-              <h3 className="">Me estoy separando</h3>
+            <li className="liNonePoint  br-30 ">
+              <h3 className="">"Me estoy separando"</h3>
             </li>
           </ul>
         </div>
@@ -177,7 +177,7 @@ export default function PageCoaching() {
         </div>
       </div>
 
-      <h2>"Tu bienestar también mejora la vida de quienes te rodean"</h2>
+      <h2 className="subrayado">"Tu bienestar también mejora la vida de quienes te rodean"</h2>
 
       <section className="boxDetailsPageCoaching">
         <div className="card">
