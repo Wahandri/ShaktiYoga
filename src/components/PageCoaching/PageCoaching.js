@@ -31,7 +31,7 @@ export default function PageCoaching() {
     <div className="boxPageCoaching">
       <div className="headerPageCoaching borderCard2">
         <div className="h1HeaderPageCoaching ">
-          <h1 className="sizeFontCoaching whiteColor">“La curiosidad y el autoconocimiento te llevara a tu destino”</h1>
+          <h1 className="mediaSizeFontH1 whiteColor">“La curiosidad y el autoconocimiento te llevara a tu destino”</h1>
         </div>
       </div>
       
