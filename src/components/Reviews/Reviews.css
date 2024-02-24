@@ -1,0 +1,55 @@
+.boxCardReviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    
+}
+
+
+
+.boxReviews {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
+
+.review {
+
+    
+    
+
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100px;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgr9943 {
+    background-color: fff;
+    border-radius: 50%;
+}
+
+@media (max-width: 840px) {
+    .boxCardReviews {
+        width: 90%;
+    }
+
+    .boxReviews {
+        width: 90%;
+    }
+    
+}

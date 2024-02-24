@@ -218,6 +218,12 @@
                 -20px -20px 60px #ffffff;
 }
 
+.borderCardViolet {
+  background-color: #fff;
+  box-shadow: 20px 20px 60px #795ab3,
+                -20px -20px 60px #ffffff;
+}
+
 .borderCard2 {
   border-radius: 50px;
   background: lightgrey;

@@ -32,6 +32,11 @@
     z-index: 1;
 }
 
+.blunt {
+    border-radius: 15px;
+    background-color: #ffffff72;
+}
+
 .welcomeStart {
     display: flex;
     flex-direction: column;
@@ -40,8 +45,9 @@
     width: 700px;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 10px 10px 20px rgba(117, 117, 117, 0.2);
     background-color: #ffffff72;
+    box-shadow: 10px 10px 20px rgba(117, 117, 117, 0.2);
+    
 
 }
 
@@ -113,6 +119,17 @@
         width: 300px;
     }
 }
+
+/* Carousel */
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} 
+
+/* ----------------------- */
 
 @media (max-width: 840px) {
     .welcomeStart {

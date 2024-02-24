@@ -7,6 +7,9 @@ import CardDefinition from "../CardDefinition/CardDefinition";
 import fruitADN from "../../images/fruitADN.jpg";
 import danceMeditation from "../../images/meditacion-dinamica.png";
 import iconDario from "../../images/yogaC.png"
+import Reviews from "../Reviews/Reviews";
+
+
 
 export default function Start() {
   return (
@@ -19,7 +22,7 @@ export default function Start() {
             alt="Logo Shakti"
           />
           <div className="noOpacity flex-column center">
-            <h4 className="">"El único límite es tu mente."</h4>
+            <h4 className="blunt">"El único límite es tu mente."</h4>
           </div>
         </div>
         <div className="noOpacity welcomeStart">
@@ -103,6 +106,10 @@ export default function Start() {
             </p>
           }
         />
+      </div>
+
+      <div class="carousel">
+        <Reviews />
       </div>
     </div>
   );
