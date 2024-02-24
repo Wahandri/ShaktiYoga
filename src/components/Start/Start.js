@@ -5,7 +5,7 @@ import imgCoaching from "../../images/manosAmigo.png";
 import imgCoaching2 from "../../images/el-masaje-relajante-es-una-tecnica-ancestral-para-armonizar-las-emociones.jpeg";
 import CardDefinition from "../CardDefinition/CardDefinition";
 import fruitADN from "../../images/fruitADN.jpg";
-import danceMeditation from "../../images/meditacion-dinamica.png";
+import danceMeditation from "../../images/fdm.png";
 import iconDario from "../../images/yogaC.png"
 import Reviews from "../Reviews/Reviews";
 
