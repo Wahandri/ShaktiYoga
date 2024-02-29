@@ -50,10 +50,9 @@ export default function Reviews() {
   }, []);
 
   return (
-    <div className='flex-column center gap-20'>
+    <div className='flex-column w-100 center gap-20'>
       <h2 className='titleReviews'>Opiniones de Clientes</h2>
-      <div className='boxCardReviews borderCard br-50'>
-        <Slider className='boxReviews' ref={sliderRef} {...settings}>
+        <Slider className='boxCardReviews borderCard br-50' ref={sliderRef} {...settings}>
           {reviews.map((review, index) => (
             <div key={index} className="">
               <div className='flex-column w-50 center'>
@@ -64,7 +63,6 @@ export default function Reviews() {
             </div>
           ))}
         </Slider>
-      </div>
     </div>
 
   );
