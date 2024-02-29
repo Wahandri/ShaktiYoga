@@ -51,7 +51,15 @@
 
 }
 
+/* Carousel */
 
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} 
+/* ----------- */
 
 .logoShakti {
     width: 450px;
@@ -88,87 +96,7 @@
 }
 
 
-
-@media (max-width: 1300px) {
-    .startHeader {
-        flex-direction: column;
-        height: 100%;
-    }
-
-    .welcomeStart {
-        margin-bottom: 40px;
-    }
-
-    .welcomeDescription {
-        width: 90%;
-    }
-
-    .imagesHeaderStart {
-        flex-direction: column-reverse;
-    }
-
-    .imgSimona {
-        margin-top: 100px;
-    }
-
-    .startHeader::before {
-        height: 100%;
-    }
-
-    .logoShakti {
-        width: 300px;
-    }
-}
-
-/* Carousel */
-
-.carousel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-} 
-
-/* ----------------------- */
-
-@media (max-width: 840px) {
-    .welcomeStart {
-        margin-bottom: 0;
-        border-radius: 50px;
-        width: 90%;
-    }
-}
-
-@media (max-width: 780px) {
-  .title {
-    text-align: center;
-  }
-
-  .welcomeStart {
-    width: 90%;
-  }
-
-  
-}
-
-@media (max-width: 600px) {
-    .textSmall {
-        width: 95%;
-    }
-
-    .imgSimona {
-        width: 300px;
-    }
-}
-
-@media (max-width: 480px) {
-    
-  }
-
-
-  /* ---------- */
-
-  .flex {
+.flex {
     display: flex;
     align-items: center;
 }
@@ -201,4 +129,61 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
+}
+
+
+@media (max-width: 1300px) {
+    .startHeader {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .welcomeStart {
+        margin-bottom: 40px;
+    }
+
+    .welcomeDescription {
+        width: 90%;
+    }
+
+    .imagesHeaderStart {
+        flex-direction: column-reverse;
+    }
+
+    .imgSimona {
+        margin-top: 100px;
+    }
+
+    .startHeader::before {
+        height: 100%;
+    }
+
+    .logoShakti {
+        width: 300px;
+    }
+}
+
+
+@media (max-width: 840px) {
+    .welcomeStart {
+        margin-bottom: 0;
+        border-radius: 50px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 780px) {
+  .title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+    .textSmall {
+        width: 95%;
+    }
+
+    .imgSimona {
+        width: 300px;
+    }
 }
