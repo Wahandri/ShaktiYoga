@@ -13,21 +13,22 @@
     align-items: center;
     height: 90vh;
     width: 100%;
-    background-image: url("../../images/Diseño\ sin\ título.png");
+    background-image: url("../../images/hombre-cima-montana-brazos-abiertos-2800647.webp");
     background-size: cover;
-    background-position:right;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 .h1HeaderPageCoaching {
     padding: 30px;
-    border-radius: 30px;
     width: 600px;
     margin: 60px;
     text-align: center;
-    box-shadow: 20px 20px 60px #292929,
-                -20px -20px 60px #3a3a3a;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffffff72;
+    box-shadow: 10px 10px 20px rgba(117, 117, 117, 0.2);
 }
 
 .boxDescriptionCoaching {
@@ -99,10 +100,10 @@
 
 .boxDetailsPageCoaching {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
     gap: 90px;
+    justify-content: center;
 }
 
 .detailsPageCoaching {
@@ -297,6 +298,9 @@ transform: rotateY(180deg);
     .videoCoaching {
         width: 95%;
 
+    }
+    .liNonePoint {
+        font-size: 11px;
     }
 
     .ulHeaderPageCoaching {

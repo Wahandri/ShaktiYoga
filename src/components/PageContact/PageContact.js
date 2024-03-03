@@ -41,24 +41,22 @@ const exactPosition = [36.59642993520726, -4.534141545968688]; // Coordenadas ex
           tus inquietudes. Tu camino hacia una vida más plena comienza ahora.
         </p>
       </div>
-
-
-
+  
       <div className="contact-details">
         <div className="flex">
-          <img src={phone} alt="gps" />
+          <img src={phone} alt="phone" />
           <p><a href="tel:+34644808264">+34 644808264</a></p>
         </div>
         <div className="flex">
-          <img src={email} alt="phone" />
+          <img src={email} alt="email" />
           <p><a href="mailto:mayaesimo@gmail.com">mayaesimo@gmail.com</a></p>
         </div>
         <div className="flex">
-          <img src={gpsU} alt="email" />
+          <img src={gpsU} alt="gps" />
           <p>Calle Dátil 10, Benalmádena, 29631, Málaga</p>
         </div>
       </div>
-
+  
       <div className="borderCard br-50 border33">
         <MapContainer
           center={position}
@@ -76,9 +74,11 @@ const exactPosition = [36.59642993520726, -4.534141545968688]; // Coordenadas ex
             </Popup>
           </Marker>
         </MapContainer>
-      </div>  
+      </div>
     </div>
   );
+  
+
 };
 
 export default PageContact;
