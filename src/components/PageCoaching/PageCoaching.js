@@ -31,7 +31,7 @@ export default function PageCoaching() {
     <div className="boxPageCoaching">
       <div className="headerPageCoaching borderCard2">
         <div className="h1HeaderPageCoaching ">
-          <h1 className="mediaSizeFontH1 pinkColor">“La curiosidad y el autoconocimiento te llevara a tu destino”</h1>
+          <h1 className="mediaSizeFontH1 blackColor">“La curiosidad y el autoconocimiento te llevara a tu destino”</h1>
         </div>
       </div>
       
@@ -40,40 +40,40 @@ export default function PageCoaching() {
         <div className="flex ">
           <ul className="liNonePoint ulHeaderPageCoaching">
             <li className="liNonePoint  br-30 ">
-              <h3 className="">"Me siento culpable"</h3>
+              <h3 className="blackColor">"Me siento culpable"</h3>
             </li>
             <li className="liNonePoint  br-30 ">
-              <h3 className="">"Soy muy vergonzosa"</h3>
+              <h3 className="blackColor">"Soy muy vergonzosa"</h3>
             </li>
             <li className="liNonePoint  br-30 ">
-              <h3 className="">"Tengo miedo al rechazo"</h3>
+              <h3 className="blackColor">"Tengo miedo al rechazo"</h3>
             </li>
             <li className="liNonePoint  br-30 ">
-              <h3 className="">"No gestiono mi tristeza"</h3>
+              <h3 className="blackColor">"No gestiono mi tristeza"</h3>
             </li>
             <li className="liNonePoint  br-30 ">
-              <h3 className="">"Me cuesta poner límites"</h3>
+              <h3 className="blackColor">"Me cuesta poner límites"</h3>
             </li>
             <li className="liNonePoint  br-30 ">
-              <h3 className="">"He sufrido abusos"</h3>
+              <h3 className="blackColor">"He sufrido abusos"</h3>
             </li>
             <li className="liNonePoint  br-30 ">
-              <h3 className="">"Soy muy perfeccionista"</h3>
+              <h3 className="blackColor">"Soy muy perfeccionista"</h3>
             </li>
             <li className="liNonePoint  br-30 ">
-              <h3 className="">"Soy muy indecisa"</h3>
+              <h3 className="blackColor">"Soy muy indecisa"</h3>
             </li>
             <li className="liNonePoint  br-30 ">
-              <h3 className="">"Relaciones complicadas de pareja"</h3>
+              <h3 className="blackColor">"Relaciones complicadas de pareja"</h3>
             </li>
             <li className="liNonePoint  br-30 ">
-              <h3 className="">"Me asusto fácil y me da mucha ansiedad"</h3>
+              <h3 className="blackColor">"Me asusto fácil y me da mucha ansiedad"</h3>
             </li>
             <li className="liNonePoint  br-30 ">
-              <h3 className="">"Estoy decepcionada"</h3>
+              <h3 className="blackColor">"Estoy decepcionada"</h3>
             </li>
             <li className="liNonePoint  br-30 ">
-              <h3 className="">"Me estoy separando"</h3>
+              <h3 className="blackColor">"Me estoy separando"</h3>
             </li>
           </ul>
         </div>
@@ -86,7 +86,7 @@ export default function PageCoaching() {
         <section className="boxDetailsPageCoaching borderCard">
           
             <div className="flex-column margin-20 center">
-              <h2 className="pinkColor">¿QUE ES EL COACHING?</h2>
+              <h1 className="pinkColor">¿QUE ES EL COACHING?</h1>
               <p>
                 Es un proceso de acompañamiento personal, profesional y confidencial en el que se utiliza lo mejor de diferentes disciplinas como: Psicología de las Necesidades Humanas, Gestión de Conflictos, Coaching, PNL, Terapia de Pareja, hipnosis Eriksoniana, etc.
               </p>
@@ -95,7 +95,7 @@ export default function PageCoaching() {
 
           
             <div className="flex-column margin-20 center">
-              <h2 className="pinkColor">¿PARA QUIEN ES?</h2>
+              <h1 className="pinkColor">¿PARA QUIEN ES?</h1>
               <p>
                 El coaching emocional es para cualquier persona que tenga una necesidad de cambio, que sienta insatisfacción, frustración, baja autoestima, etc.<br /><br />
                 Es una metodología que permite mejorar las relaciones contigo mismo y con los demás a través del conocimiento de las emociones y su gestión, encaminada a conseguir el bienestar en el ámbito emocional, relacional y profesional.<br /><br />
@@ -107,7 +107,7 @@ export default function PageCoaching() {
 
           
             <div className="flex-column margin-20 center">
-              <h2 className="pinkColor">¿QUÉ ES UNA INTERVENCIÓN ESTRATÉGICA?</h2>
+              <h1 className="pinkColor">¿QUÉ ES UNA INTERVENCIÓN ESTRATÉGICA?</h1>
               <p>La Intervención Estratégica tiene 3 funciones básicas:</p>{" "}
               <ul className="">
                 <li>

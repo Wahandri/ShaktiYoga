@@ -8,28 +8,36 @@ import facebook from "../../images/facebook.png";
 import logoDario from "../../images/LogoDario.png";
 import shop from "../../images/bolsa-de-la-compra.png";
 import instagram from "../../images/instagram.png";
+import spain from "../../images/espana.png";
+import italy from "../../images/italia.png";
 
 
 export default function Footer() {
   return (
     <div className="boxShadow boxFooter">
       <section className="section1Footer"> 
-        <h3 className="">SERVICIOS</h3>
-        <Link to="/coaching" className="footerLink">
-          Coaching
-        </Link>
-        <Link to="/massage" className="footerLink">
-          Masajes
-        </Link>
-        <Link to="/meditation" className="footerLink">
-          Meditation
-        </Link>
-        <Link to="/nutrition" className="footerLink">
-          Nutraceutica
-        </Link>
-        <Link to="/yoga" className="footerLink">
-          Yoga
-        </Link>
+      <h3 className="">SERVICIOS</h3>
+        <div className="flex center gap-10">
+          <img width="30px" src={spain} alt="" />
+          <img width="30px" src={italy} alt="" />
+        </div>
+        <div className="flex-column gap-5">
+          <Link to="/coaching" className="footerLink">
+            Coaching
+          </Link>
+          <Link to="/massage" className="footerLink">
+            Masajes
+          </Link>
+          <Link to="/meditation" className="footerLink">
+            Meditation
+          </Link>
+          <Link to="/nutrition" className="footerLink">
+            Nutraceutica
+          </Link>
+          <Link to="/yoga" className="footerLink">
+            Yoga
+          </Link>
+        </div>
       </section>
 
       <section className="section1Footer">

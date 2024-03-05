@@ -14,10 +14,11 @@
 .section1Footer {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 80%;
     width: 300px;
+    gap: 10px;
 }
 
 .footerLink {

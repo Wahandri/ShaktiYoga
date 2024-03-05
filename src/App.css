@@ -53,6 +53,14 @@
   gap: 20px;
 }
 
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-5 {
+  gap: 5px;
+}
+
 .padding-10 {
   padding: 10px;
 
@@ -344,12 +352,10 @@ box-shadow: inset 0px 1px 122px 2px rgba(0,0,0,0.28);
 
 .pinkColor {
   color: #9464F4 ;
-  text-shadow: 1px 1px #4f289c;
 }
 
 .blueColor {
   color: #80b3ff ;
-  text-shadow: 1px 1px #315b9a;
 }
 
 .purpleColor {
@@ -385,11 +391,6 @@ margin-right: 15px;
 }
 
 
-
-h1 {
-  font-size: 40px;
-}
-
 .h1-60 {
   font-size: 60px;
 }
@@ -410,10 +411,18 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 610px) {
+@media (max-width: 700px) {
   h1 {
-    font-size: 30px;
+    font-size: 24px;
   }
+
+  p {
+    font-size: 18px;
+    }
+}
+
+@media (max-width: 610px) {
+  
 
   /*  */
   .card2 {
@@ -429,12 +438,3 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-@media (max-width: 450px) {
-  .mediaSizeFontH1 {
-    font-size: 22px;
-  }
-
-  h1 {
-    font-size: 23px;
-  }
-}

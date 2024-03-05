@@ -16,7 +16,7 @@ export default function Start() {
       <div className="startHeader br-50 ">
         
         <div className="noOpacity welcomeStart">
-          <h1 className="title">
+          <h1 className="">
             <span className="pinkColor">Salud y Bienestar Holístico</span>
           </h1>
           <p className="welcomeDescription">
@@ -34,7 +34,7 @@ export default function Start() {
             alt="Logo Shakti"
           />
           <div className="noOpacity flex-column center">
-            <h4 className="blunt">"El único límite es tu mente."</h4>
+            <h4 className="blunt blackColor">"El único límite es tu mente."</h4>
           </div>
         </div>
       </div>

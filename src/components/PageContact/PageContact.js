@@ -8,6 +8,8 @@ import email from "../../images/email.png";
 import phone from "../../images/phone.png";
 import gpsU from "../../images/gpsU.png";
 import SZ from "../../images/SZ2.png";
+import spain from "../../images/espana.png";
+import italy from "../../images/italia.png";
 
 const PageContact = () => { 
   const position = [36.59642993520726, -4.534141545968688]; // Coordenadas de la dirección aproximada
@@ -40,6 +42,11 @@ const exactPosition = [36.59642993520726, -4.534141545968688]; // Coordenadas ex
           No dudes en contactarme para programar una sesión, hacer preguntas o simplemente compartir
           tus inquietudes. Tu camino hacia una vida más plena comienza ahora.
         </p>
+      </div>
+
+      <div className="flex gap-20">
+        <img width="60px" src={spain} alt="gps" />
+        <img width="60px" src={italy} alt="email" />
       </div>
   
       <div className="contact-details">

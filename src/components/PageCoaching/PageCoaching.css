@@ -295,6 +295,10 @@ transform: rotateY(180deg);
         width: 95%;
     }
 
+    .h1Size {
+        font-size: 30px;
+    }
+
     .videoCoaching {
         width: 95%;
 
@@ -313,12 +317,9 @@ transform: rotateY(180deg);
         width: 90%;
         margin: 30px;
         text-align: center;
-        font-size: 35px;
     }
 
-    h1 {
-        font-size: 30px;
-    }
+   
 
     .summaryPageCoaching {
         padding-left: 10px;
@@ -333,11 +334,3 @@ transform: rotateY(180deg);
     }
 }
 
-@media (max-width: 440px) {
-    .h1HeaderPageCoaching {
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        
-    }
-}

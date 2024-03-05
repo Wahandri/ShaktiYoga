@@ -20,7 +20,8 @@
 
 .imgSimonaSize {
     width: 300px;
-    border-radius: 30px;
+    border-radius: 50%;
+    background-color: #9162ff93;
 }
 
 .contact-details {
