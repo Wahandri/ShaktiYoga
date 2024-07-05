@@ -53,7 +53,7 @@ export default function PageYoga() {
         <div className="sectionPageYoga borderCard br-50">
           <img className="imgSectionYoga" src={imgYoga1} alt="" />
           <div className="flex-column descriptionSectionYoga">
-            <h1>RAYA YOGA</h1>
+            <h1>RAJA YOGA</h1>
             <p>
               Se utilizan movimientos dinámicos, posiciones estáticas y técnicas de respiración para relacionarnos con el funcionamiento extremadamente complejo y sutil de nuestro cuerpo y mente. El Raja yoga es un medio precioso de transformación interior: durante la práctica, la expansión de la conciencia corporal, el alivio de la agitación mental y la propiocepción de nuestros desequilibrios pueden crear las condiciones para el nacimiento de una nueva sensibilidad y percepción de la realidad libre de condicionamientos. La calma y la relajación, a menudo consideradas erróneamente como los principales objetivos del yoga, resultan ser el punto de partida del camino. Todos los aspectos del ser humano están involucrados y estimulados por la práctica gracias al uso de diferentes herramientas: Asana (las posiciones del yoga o conciencia corporal), Pranayama (técnicas de respiración o la conciencia de la respiración), Mudra (gestos psíquicos), Bandha (sellos de energía, ataduras) y Dharana (concentración o atención enfocada). El equilibrio neutro-fisiológico generado por la coordinación armoniosa de estos elementos crea la base para la meditación.
             </p>
