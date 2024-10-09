@@ -79,14 +79,14 @@ export default function Header() {
           
           
           <hr className="line" />
-          <Link
+          {/* <Link
             onClick={closeMenu}
             className={`myBtn responsiveBtn ${isActive("/yoga") ? "active" : ""}`}
             to="/yoga"
           >
             YOGA
           </Link>
-          <hr className="line" />
+          <hr className="line" /> */}
           <Link
             onClick={closeMenu}
             className={`myBtn responsiveBtn ${isActive("/contact") ? "active" : ""}`}
